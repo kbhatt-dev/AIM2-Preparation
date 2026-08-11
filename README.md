@@ -57,9 +57,9 @@ AIM2-Preparation/
 
 # 📅 Preparation Progress
 
-## Week 1 — Python 🐍
+# Week 1 — Python 🐍
 
-### Day 1 — Python Fundamentals ✅
+## Day 1 — Python Fundamentals ✅
 
 Topics completed:
 
@@ -92,7 +92,7 @@ The program accepts student information and scores and calculates:
 
 ---
 
-### Day 2 — Data Structures & Student Gradebook ✅
+## Day 2 — Data Structures & Student Gradebook ✅
 
 Topics completed:
 
@@ -124,7 +124,7 @@ The program stores multiple students and calculates:
 
 ---
 
-### Day 3 — Control Flow ✅
+## Day 3 — Control Flow ✅
 
 Topics completed:
 
@@ -160,7 +160,7 @@ The gradebook was upgraded to calculate:
 
 ---
 
-### Day 4 — Functions & Modular Programming ✅
+## Day 4 — Functions & Modular Programming ✅
 
 Topics completed:
 
@@ -198,46 +198,242 @@ This made the program more organized, reusable, and easier to maintain.
 
 ---
 
-# 🔜 Upcoming Preparation
+## Day 5 — Loops & Iteration ✅
 
-### Day 5
+Topics completed:
 
-Python loops and data structures deep dive
-
-Planned topics:
-
-* `for`
-* `while`
+* `for` loops
+* `while` loops
 * `range()`
 * `enumerate()`
 * `zip()`
-* Nested loops
-* Lists
-* Tuples
-* Sets
-* Dictionaries
+* Iterating through collections
 * List comprehensions
-* Dictionary comprehensions
+* Accumulating values
+* Finding minimum and maximum values
+* Filtering data
+* Basic data aggregation
 
-### Day 6
+### Mini Project
 
-Python practical programming and file/data handling
+**Student Performance Analyzer**
 
-### Day 7
+The program processes multiple students and calculates:
 
-Python revision, practice, and mini-project consolidation
+* Number of students
+* Individual results
+* Highest score
+* Lowest score
+* Average score
+* Passed students
+* Failed students
+* Students with scores of 80+
+
+This introduced more practical techniques for processing collections of data.
+
+---
+
+## Day 6 — File Handling, Exceptions & Modules ✅
+
+Topics completed:
+
+* File writing
+* File reading
+* `open()`
+* `with open()`
+* Reading files line by line
+* `read()`
+* `readlines()`
+* `try`
+* `except`
+* `FileNotFoundError`
+* `ValueError`
+* `IndexError`
+* Creating custom Python modules
+* Importing custom modules
+* Reusing functions from another file
+* Combining file data with Python processing
+
+### Mini Project
+
+**Student File Analyzer**
+
+The program reads student information from a text file and processes:
+
+* Student names
+* Subject scores
+* Total scores
+* Average scores
+* Letter grades
+* Pass/fail results
+
+The project also introduced basic error handling for missing or invalid student data.
+
+---
+
+## Day 7 — Object-Oriented Programming ✅
+
+Topics completed:
+
+* Classes
+* Objects
+* `__init__()`
+* `self`
+* Instance attributes
+* Instance methods
+* Creating multiple objects
+* Inheritance
+* Parent and child classes
+* `super()`
+* Combining OOP with file handling
+* Combining OOP with exception handling
+* Object-based data processing
+
+### Mini Project
+
+**Student Grade Sheet Analyzer**
+
+The Day 6 Student File Analyzer was upgraded using Object-Oriented Programming.
+
+The program:
+
+1. Reads student data from a file
+2. Creates a `StudentGradeSheet` object for each student
+3. Calculates total scores
+4. Calculates averages
+5. Determines grades
+6. Determines pass/fail results
+7. Finds the highest scorer
+8. Finds the lowest scorer
+9. Calculates the class total
+10. Calculates the class average
+11. Tracks passed and failed students
+12. Identifies high-performing students
+
+This project combined several Week 1 concepts:
+
+```text
+File Handling
+      +
+Exception Handling
+      +
+Classes & Objects
+      +
+Methods
+      +
+Loops
+      +
+Lists
+      +
+Conditional Logic
+      ↓
+Student Grade Sheet Analyzer
+```
+
+---
+
+# 📊 Week 1 Summary
+
+Week 1 focused on building a practical Python programming foundation.
+
+The progression was:
+
+```text
+Day 1
+Python Fundamentals
+      ↓
+Day 2
+Lists & Dictionaries
+      ↓
+Day 3
+Control Flow
+      ↓
+Day 4
+Functions
+      ↓
+Day 5
+Loops & Data Processing
+      ↓
+Day 6
+Files + Exceptions + Modules
+      ↓
+Day 7
+Object-Oriented Programming
+```
+
+### Week 1 Outcome
+
+By the end of Week 1, I can:
+
+* Write Python programs using variables and different data types
+* Work with lists and dictionaries
+* Use conditions and loops
+* Create reusable functions
+* Read and write files
+* Handle common exceptions
+* Create and import custom modules
+* Create classes and objects
+* Use inheritance and `super()`
+* Combine multiple Python concepts into a practical project
+
+---
+
+# 🔜 Upcoming Preparation
+
+## Week 2 — Data Analysis 📊
+
+Planned topics:
+
+* NumPy
+* NumPy arrays
+* Array operations
+* Indexing and slicing
+* Pandas
+* Series
+* DataFrames
+* Loading datasets
+* Data inspection
+* Data cleaning
+* Filtering and sorting
+* Grouping and aggregation
+* Basic statistical analysis
+* Matplotlib
+* Seaborn
+* Data visualization
+
+### Mini Project
+
+**Canadian Housing Analysis**
+
+The project will use a real dataset to practice:
+
+```text
+Load Data
+    ↓
+Inspect Data
+    ↓
+Clean Data
+    ↓
+Transform Data
+    ↓
+Analyze Data
+    ↓
+Visualize Data
+    ↓
+Find Insights
+```
 
 ---
 
 # 📊 Main Preparation Roadmap
 
-| Week       | Focus                             | Status         |
-| ---------- | --------------------------------- | -------------- |
-| Week 1     | Python                            | 🟢 In Progress |
-| Week 2     | NumPy + Pandas + Visualization    | ⚪ Upcoming     |
-| Week 3     | Machine Learning                  | ⚪ Upcoming     |
-| Week 4     | Deep Learning + TensorFlow/Keras  | ⚪ Upcoming     |
-| Final Days | Revision + NLP/GitHub preparation | ⚪ Upcoming     |
+| Week       | Focus                             | Status       |
+| ---------- | --------------------------------- | ------------ |
+| Week 1     | Python                            | 🟢 Completed |
+| Week 2     | NumPy + Pandas + Visualization    | 🟡 Next      |
+| Week 3     | Machine Learning                  | ⚪ Upcoming   |
+| Week 4     | Deep Learning + TensorFlow/Keras  | ⚪ Upcoming   |
+| Final Days | Revision + NLP/GitHub preparation | ⚪ Upcoming   |
 
 ---
 
@@ -301,12 +497,12 @@ The preparation focuses on understanding concepts, writing code, and building sm
 
 ---
 
-## 🚀 Progress
+# 🚀 Progress
 
-**Python Days Completed: 4 / 7**
+**Week 1: 7 / 7 Days Completed ✅**
 
-**Current focus:** Python fundamentals and programming skills.
+**Current focus:** Moving from Python programming into Data Analysis.
 
-Next milestone:
+**Next milestone:**
 
-**Complete Week 1 → Move into NumPy, Pandas & Data Analysis.**
+**Complete Week 2 → Build a Canadian Housing Analysis project → Move into Machine Learning.**
