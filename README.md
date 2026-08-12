@@ -1,6 +1,6 @@
 # AIM2 Preparation 🚀
 
-My preparation journey for the **Artificial Intelligence and Machine Learning (AIM2)** graduate program.
+My preparation journey for the **Artificial Intelligence and Machine Learning (AIM2)** graduate program at Fanshawe College.
 
 The goal of this repository is to build a strong foundation in Python, data analysis, machine learning, and deep learning before starting the AIM2 program.
 
@@ -378,16 +378,105 @@ By the end of Week 1, I can:
 
 ---
 
-# 🔜 Upcoming Preparation
+# 📊 Week 2 — Data Analysis
 
-## Week 2 — Data Analysis 📊
+## Day 1 — NumPy Fundamentals ✅
 
-Planned topics:
+Topics completed:
 
-* NumPy
-* NumPy arrays
-* Array operations
-* Indexing and slicing
+* NumPy fundamentals
+* Importing NumPy with `import numpy as np`
+* NumPy `ndarray`
+* Creating 1D arrays
+* Creating 2D arrays
+* `ndim`
+* `shape`
+* `size`
+* `dtype`
+* `np.array()`
+* `np.zeros()`
+* `np.ones()`
+* `np.arange()`
+* Array indexing
+* Array slicing
+* 2D array indexing
+* Vectorized arithmetic operations
+* Array-to-array operations
+* Aggregation functions
+* `sum()`
+* `mean()`
+* `max()`
+* `min()`
+* Boolean comparisons
+* Boolean filtering
+* `axis=0`
+* `axis=1`
+
+### Practice
+
+Completed exercises covering:
+
+* NumPy array creation and inspection
+* Student score analysis
+* Vectorized array operations
+* 2D student score matrices
+* Array indexing and slicing
+* Boolean filtering
+
+### Mini Project
+
+**Student Score Analyzer — NumPy Edition**
+
+The project represents student scores using a 2D NumPy array and calculates:
+
+* All student scores
+* Number of students
+* Number of subjects
+* Array shape
+* Individual student averages
+* Subject averages
+* Highest score
+* Lowest score
+* Scores greater than or equal to 80
+
+The project also introduced NumPy's `axis` concept:
+
+```text
+                 Math   Python   AI
+Krishna           85      92     88
+Rahul             75      80     75
+Priya             91      95     94
+Amit              65      70     68
+
+axis=1 → calculate across columns → student averages
+
+axis=0 → calculate down rows → subject averages
+```
+
+### Day 1 Outcome
+
+I can now:
+
+* Create and inspect NumPy arrays
+* Understand 1D and 2D array structures
+* Work with array dimensions and shapes
+* Perform vectorized numerical operations
+* Access and slice array elements
+* Perform numerical aggregation
+* Filter numerical data using Boolean conditions
+* Use `axis=0` and `axis=1` for 2D data analysis
+* Combine NumPy with Python concepts learned during Week 1
+
+---
+
+## 🔜 Week 2 — Upcoming Topics
+
+The remaining Week 2 topics are:
+
+* NumPy deeper operations
+* NumPy reshaping
+* NumPy random data
+* NumPy statistical operations
 * Pandas
 * Series
 * DataFrames
@@ -427,13 +516,13 @@ Find Insights
 
 # 📊 Main Preparation Roadmap
 
-| Week       | Focus                             | Status       |
-| ---------- | --------------------------------- | ------------ |
-| Week 1     | Python                            | 🟢 Completed |
-| Week 2     | NumPy + Pandas + Visualization    | 🟡 Next      |
-| Week 3     | Machine Learning                  | ⚪ Upcoming   |
-| Week 4     | Deep Learning + TensorFlow/Keras  | ⚪ Upcoming   |
-| Final Days | Revision + NLP/GitHub preparation | ⚪ Upcoming   |
+| Week       | Focus                             | Status         |
+| ---------- | --------------------------------- | -------------- |
+| Week 1     | Python                            | 🟢 Completed   |
+| Week 2     | NumPy + Pandas + Visualization    | 🟡 In Progress |
+| Week 3     | Machine Learning                  | ⚪ Upcoming     |
+| Week 4     | Deep Learning + TensorFlow/Keras  | ⚪ Upcoming     |
+| Final Days | Revision + NLP/GitHub preparation | ⚪ Upcoming     |
 
 ---
 
@@ -501,7 +590,9 @@ The preparation focuses on understanding concepts, writing code, and building sm
 
 **Week 1: 7 / 7 Days Completed ✅**
 
-**Current focus:** Moving from Python programming into Data Analysis.
+**Week 2: 1 / 7 Days Completed 🟢**
+
+**Current focus:** NumPy → Pandas → Data Analysis → Data Visualization
 
 **Next milestone:**
 
