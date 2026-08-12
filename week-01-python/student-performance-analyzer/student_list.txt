@@ -1,0 +1,9 @@
+Name,Math,Python,AI,age
+Krishna,95,88,65,28 
+Kuntal,90,92,87,31 
+Parth,98,95,94,34 
+Rahul,82,91,78,32 
+Priya,90,94,89,25 
+Amit,25,65,45,24
+Heta,68,24,68,27
+Neha,87,65,97,28

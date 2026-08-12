@@ -173,7 +173,7 @@ class StudentGradeSheet:
         elif average >= 80:
             return "B"
         elif average >= 70:
-            return "C"
+            return ""
         elif average >= 60:
             return "D"
         else:
