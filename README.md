@@ -452,43 +452,166 @@ axis=1 → calculate across columns → student averages
 
 axis=0 → calculate down rows → subject averages
 ```
+---
 
-### Day 1 Outcome
+## Day 2 — Pandas Fundamentals ✅
+
+Topics completed:
+
+* Pandas fundamentals
+* Importing Pandas with `import pandas as pd`
+* Pandas `Series`
+* Pandas `DataFrame`
+* Creating a `Series`
+* Creating a `Series` with custom indexes
+* Creating DataFrames from dictionaries
+* Understanding rows and columns
+* `shape`
+* `columns`
+* `index`
+* `dtypes`
+* `head()`
+* `tail()`
+* `info()`
+* `describe()`
+* Selecting a single column
+* Selecting multiple columns
+* Understanding Series vs DataFrame output
+* `loc`
+* `iloc`
+* Boolean conditions
+* Boolean masks
+* Filtering DataFrames
+* Multiple filtering conditions using `&`
+* Adding new columns
+* Calculating row averages with `mean(axis=1)`
+
+### Important Concepts Learned
+
+#### Series vs DataFrame
+
+```text
+df["Math"]
+     ↓
+Series
+```
+
+A single column name passed directly returns a Pandas `Series`.
+
+```text
+df[["Math"]]
+     ↓
+DataFrame
+```
+
+A list of column names returns a Pandas `DataFrame`, even when the list contains only one column.
+
+#### Boolean Mask vs Filtered DataFrame
+
+```python
+df["Math"] > 80
+```
+
+creates a Boolean mask:
+
+```text
+True
+False
+True
+False
+```
+
+Using the Boolean mask inside the DataFrame:
+
+```python
+df[df["Math"] > 80]
+```
+
+returns only the matching rows.
+
+This concept connects directly with NumPy Boolean filtering learned during Day 1.
+
+### Practice
+
+Completed exercises covering:
+
+* Creating Pandas Series
+* Creating DataFrames
+* Inspecting DataFrame structure
+* Selecting single and multiple columns
+* Accessing rows using `loc`
+* Accessing rows using `iloc`
+* Filtering using single conditions
+* Filtering using multiple conditions
+* Adding calculated columns
+* Calculating student averages
+* Statistical summaries using `describe()`
+
+### Mini Project
+
+**Student Performance DataFrame Analyzer**
+
+The project stores student performance data using a Pandas DataFrame.
+
+The program:
+
+1. Creates the student dataset
+2. Displays the complete DataFrame
+3. Displays its shape
+4. Displays column names
+5. Inspects data types
+6. Displays the first rows using `head()`
+7. Displays the last rows using `tail()`
+8. Creates an `Average` column
+9. Displays student names and averages
+10. Filters students with an average of 80 or higher
+11. Filters students with Math scores of 85 or higher
+12. Uses multiple conditions to filter Python and AI scores
+13. Generates a statistical summary using `describe()`
+14. Finds the highest student average
+15. Finds the lowest student average
+
+### Day 2 Outcome
 
 I can now:
 
-* Create and inspect NumPy arrays
-* Understand 1D and 2D array structures
-* Work with array dimensions and shapes
-* Perform vectorized numerical operations
-* Access and slice array elements
-* Perform numerical aggregation
-* Filter numerical data using Boolean conditions
-* Use `axis=0` and `axis=1` for 2D data analysis
-* Combine NumPy with Python concepts learned during Week 1
+* Understand the difference between a Pandas `Series` and `DataFrame`
+* Create DataFrames from Python dictionaries
+* Inspect dataset structure and data types
+* Select rows and columns
+* Use `loc` and `iloc`
+* Create Boolean conditions
+* Distinguish between a Boolean mask and a filtered DataFrame
+* Filter rows using one or multiple conditions
+* Add calculated columns
+* Use NumPy-style `axis` operations inside Pandas
+* Generate basic statistical summaries
 
 ---
 
 ## 🔜 Week 2 — Upcoming Topics
 
-The remaining Week 2 topics are:
+Remaining Week 2 topics:
 
-* NumPy deeper operations
-* NumPy reshaping
-* NumPy random data
-* NumPy statistical operations
-* Pandas
-* Series
-* DataFrames
-* Loading datasets
-* Data inspection
 * Data cleaning
+* Missing values
+* Duplicate values
+* Incorrect data types
+* Data transformation
+* Exploratory Data Analysis
 * Filtering and sorting
 * Grouping and aggregation
 * Basic statistical analysis
 * Matplotlib
 * Seaborn
 * Data visualization
+
+### Final Week 2 Project
+
+**Canadian Housing Analysis**
+
+The project will use a real dataset to practice:
+
 
 ### Mini Project
 
@@ -590,10 +713,20 @@ The preparation focuses on understanding concepts, writing code, and building sm
 
 **Week 1: 7 / 7 Days Completed ✅**
 
-**Week 2: 1 / 7 Days Completed 🟢**
+**Week 2: 2 / 7 Days Completed 🟢**
 
-**Current focus:** NumPy → Pandas → Data Analysis → Data Visualization
+Completed so far:
+
+```text
+Day 1 → NumPy Fundamentals ✅
+          ↓
+Day 2 → Pandas Fundamentals ✅
+          ↓
+Day 3 → Data Cleaning 🔜
+```
+
+**Current focus:** Pandas → Data Cleaning → Data Analysis → Data Visualization
 
 **Next milestone:**
 
-**Complete Week 2 → Build a Canadian Housing Analysis project → Move into Machine Learning.**
+**Complete Week 2 → Build the Canadian Housing Analysis project → Move into Machine Learning.**
