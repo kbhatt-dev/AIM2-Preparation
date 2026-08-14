@@ -8,11 +8,9 @@ The goal of this repository is to build a practical foundation in **Python, data
 
 ## 🎯 Preparation Goals
 
-Main technologies and skills:
-
 `Python` · `NumPy` · `Pandas` · `Matplotlib` · `Seaborn` · `Scikit-learn` · `TensorFlow/Keras` · `PyTorch` · `NLP` · `Git/GitHub`
 
-My previous learning includes Java, Spring Boot, Spring Cloud, Docker, Kubernetes, Helm, and Microservices Security, so this preparation focuses primarily on Python and AI/ML.
+Previous learning includes Java, Spring Boot, Spring Cloud, Docker, Kubernetes, Helm, and Microservices Security, so this preparation focuses primarily on Python and AI/ML.
 
 ---
 
@@ -46,8 +44,6 @@ AIM2-Preparation/
 
 ## Week 1 — Python 🐍 ✅
 
-Built a practical Python programming foundation.
-
 | Day | Topic                           | Status |
 | --- | ------------------------------- | ------ |
 | 1   | Python Fundamentals             | ✅      |
@@ -64,31 +60,17 @@ Built a practical Python programming foundation.
 * Lists and dictionaries
 * Conditions and loops
 * Functions and modules
-* File handling
-* Exception handling
-* List comprehensions, `enumerate()` and `zip()`
-* Classes and objects
-* Inheritance and `super()`
+* File handling and exceptions
+* `enumerate()`, `zip()` and list comprehensions
+* Classes, objects, inheritance and `super()`
 
 ### Projects
 
 **Student Performance / Gradebook Analyzer**
 
-Progressively developed a student analysis application while learning Python fundamentals.
-
 **Student Grade Sheet Analyzer**
 
-Combined:
-
-```text
-OOP
-+ File Handling
-+ Exception Handling
-+ Functions
-+ Modules
-+ Lists & Loops
-+ Data Processing
-```
+Combined Python fundamentals, OOP, files, exceptions, functions, modules, loops and data processing.
 
 ---
 
@@ -98,14 +80,13 @@ OOP
 
 Learned:
 
-* NumPy arrays (`ndarray`)
-* 1D and 2D arrays
+* NumPy arrays and dimensions
 * `shape`, `ndim`, `size`, `dtype`
 * Indexing and slicing
 * Vectorized operations
-* Aggregation: `sum()`, `mean()`, `min()`, `max()`
+* Aggregations
 * Boolean filtering
-* `axis=0` and `axis=1`
+* Reshaping and transpose
 
 **Mini Project:** Student Score Analyzer — NumPy Edition
 
@@ -116,21 +97,20 @@ Learned:
 Learned:
 
 * `Series` and `DataFrame`
-* Creating DataFrames from dictionaries
+* DataFrame creation
 * `shape`, `columns`, `index`, `dtypes`
 * `head()`, `tail()`, `info()`, `describe()`
 * Column selection
 * `loc` and `iloc`
-* Boolean masks and filtering
-* Multiple conditions
-* Adding calculated columns
+* Boolean filtering and multiple conditions
+* Calculated columns
 * `mean(axis=1)`
 
 Key distinction:
 
 ```python
-df["Math"]     # Series
-df[["Math"]]   # DataFrame
+df["Math"]      # Series
+df[["Math"]]    # DataFrame
 
 df["Math"] > 80       # Boolean mask
 df[df["Math"] > 80]   # Filtered DataFrame
@@ -140,10 +120,61 @@ df[df["Math"] > 80]   # Filtered DataFrame
 
 ---
 
+### Day 3 — Data Cleaning ✅
+
+Learned:
+
+* Detecting missing values with `isna()` / `isnull()`
+* Counting missing values
+* `notnull()`
+* `dropna()` and `fillna()`
+* Mean-based imputation
+* Understanding mean vs rounded values
+* Detecting duplicates with `duplicated()`
+* Removing duplicates with `drop_duplicates()`
+* String cleaning with `str.strip()` and `str.title()`
+* Data type conversion with `astype()`
+* Safe numeric conversion using `pd.to_numeric()`
+* `errors="coerce"` for invalid numeric data
+* Cleaning inconsistent categorical values
+* Data validation after cleaning
+
+Key lesson:
+
+```text
+Inspect
+   ↓
+Identify Problems
+   ↓
+Clean Strings
+   ↓
+Convert Data Types
+   ↓
+Handle Missing Values
+   ↓
+Remove Duplicates
+   ↓
+Validate
+```
+
+**Mini Project:** Messy Student Dataset Cleaner
+
+Cleaned student data containing:
+
+* Missing values
+* Duplicate rows
+* Inconsistent names and cities
+* Incorrect numeric data types
+* Invalid values such as `"unknown"`
+* Missing student scores
+
+Created a final calculated `Average` column and validated that the cleaned dataset contained no remaining missing values or duplicates.
+
+---
+
 ### Week 2 — Next
 
-* 🔜 Data Cleaning
-* ⏳ Exploratory Data Analysis
+* 🔜 EDA / Data Analysis
 * ⏳ Grouping & Aggregation
 * ⏳ Matplotlib
 * ⏳ Seaborn
@@ -192,12 +223,12 @@ Week 1 — Python
 ██████████ 7/7 ✅
 
 Week 2 — Data Analysis
-███░░░░░░░ 2/7 🟡
+████░░░░░░ 3/7 🟡
 ```
 
-**Current focus:** Pandas → Data Cleaning → EDA → Visualization
+**Current focus:** Data Cleaning ✅
 
-**Next:** Week 2 Day 3 — Data Cleaning
+**Next:** Week 2 Day 4 — EDA / Data Analysis
 
 ---
 
