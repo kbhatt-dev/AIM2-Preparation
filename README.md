@@ -78,10 +78,7 @@ Combined Python fundamentals, OOP, files, exceptions, functions, modules, loops 
 
 ### Day 1 — NumPy Fundamentals ✅
 
-Learned:
-
-* NumPy arrays and dimensions
-* `shape`, `ndim`, `size`, `dtype`
+* Arrays and dimensions
 * Indexing and slicing
 * Vectorized operations
 * Aggregations
@@ -94,27 +91,16 @@ Learned:
 
 ### Day 2 — Pandas Fundamentals ✅
 
-Learned:
-
 * `Series` and `DataFrame`
 * DataFrame creation
 * `shape`, `columns`, `index`, `dtypes`
 * `head()`, `tail()`, `info()`, `describe()`
 * Column selection
 * `loc` and `iloc`
-* Boolean filtering and multiple conditions
+* Boolean filtering
+* Multiple conditions
 * Calculated columns
 * `mean(axis=1)`
-
-Key distinction:
-
-```python
-df["Math"]      # Series
-df[["Math"]]    # DataFrame
-
-df["Math"] > 80       # Boolean mask
-df[df["Math"] > 80]   # Filtered DataFrame
-```
 
 **Mini Project:** Student Performance DataFrame Analyzer
 
@@ -122,63 +108,79 @@ df[df["Math"] > 80]   # Filtered DataFrame
 
 ### Day 3 — Data Cleaning ✅
 
-Learned:
-
-* Detecting missing values with `isna()` / `isnull()`
-* Counting missing values
-* `notnull()`
+* `isna()` / `isnull()` / `notnull()`
 * `dropna()` and `fillna()`
-* Mean-based imputation
-* Understanding mean vs rounded values
-* Detecting duplicates with `duplicated()`
-* Removing duplicates with `drop_duplicates()`
-* String cleaning with `str.strip()` and `str.title()`
-* Data type conversion with `astype()`
-* Safe numeric conversion using `pd.to_numeric()`
-* `errors="coerce"` for invalid numeric data
-* Cleaning inconsistent categorical values
-* Data validation after cleaning
-
-Key lesson:
-
-```text
-Inspect
-   ↓
-Identify Problems
-   ↓
-Clean Strings
-   ↓
-Convert Data Types
-   ↓
-Handle Missing Values
-   ↓
-Remove Duplicates
-   ↓
-Validate
-```
+* Mean and median considerations
+* Duplicate detection and removal
+* String cleaning
+* `astype()`
+* `pd.to_numeric(errors="coerce")`
+* Missing and invalid value handling
+* Final dataset validation
 
 **Mini Project:** Messy Student Dataset Cleaner
 
-Cleaned student data containing:
+---
 
-* Missing values
-* Duplicate rows
-* Inconsistent names and cities
-* Incorrect numeric data types
-* Invalid values such as `"unknown"`
-* Missing student scores
+### Day 4 — Exploratory Data Analysis ✅
 
-Created a final calculated `Average` column and validated that the cleaned dataset contained no remaining missing values or duplicates.
+Learned how to explore and summarize clean datasets using Pandas.
+
+Key concepts:
+
+* `describe()`
+* Mean, median and standard deviation
+* `unique()` and `nunique()`
+* `value_counts()`
+* Percentage distributions
+* `sort_values()`
+* `idxmax()` and `idxmin()`
+* `groupby()`
+* Multiple-column grouping
+* `agg()`
+* Correlation with `corr()`
+* Interpreting correlation vs causation
+
+EDA workflow:
+
+```text
+Understand Dataset
+      ↓
+Summarize Statistics
+      ↓
+Explore Categories
+      ↓
+Compare Groups
+      ↓
+Find High/Low Values
+      ↓
+Study Relationships
+      ↓
+Interpret Results
+```
+
+**Mini Project:** Student Performance EDA
+
+Analyzed:
+
+* Dataset size and structure
+* Overall subject averages
+* Student averages
+* Highest and lowest performers
+* Top 3 students
+* Students per city
+* City-level subject averages
+* Mean/min/max grouped statistics
+* Correlations between Math, Python and AI scores
 
 ---
 
 ### Week 2 — Next
 
-* 🔜 EDA / Data Analysis
-* ⏳ Grouping & Aggregation
-* ⏳ Matplotlib
+* 🔜 Matplotlib / Data Visualization
 * ⏳ Seaborn
-* ⏳ Data Visualization
+* ⏳ Advanced Visualization
+* ⏳ Canadian Housing Analysis
 
 ### Week 2 Final Project
 
@@ -223,12 +225,12 @@ Week 1 — Python
 ██████████ 7/7 ✅
 
 Week 2 — Data Analysis
-████░░░░░░ 3/7 🟡
+██████░░░░ 4/7 🟡
 ```
 
-**Current focus:** Data Cleaning ✅
+**Current focus:** EDA / Data Analysis ✅
 
-**Next:** Week 2 Day 4 — EDA / Data Analysis
+**Next:** Week 2 Day 5 — Data Visualization
 
 ---
 
@@ -239,3 +241,4 @@ The goal is not to become an AI/ML expert before starting the program.
 The goal is to build enough practical foundation that new concepts feel familiar and easier to understand.
 
 **Learn → Code → Practice → Build → Review**
+
