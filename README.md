@@ -44,15 +44,15 @@ AIM2-Preparation/
 
 ## Week 1 — Python 🐍 ✅
 
-| Day | Topic                           | Status |
-| --- | ------------------------------- | ------ |
-| 1   | Python Fundamentals             | ✅      |
-| 2   | Lists & Dictionaries            | ✅      |
-| 3   | Control Flow                    | ✅      |
-| 4   | Functions & Modular Programming | ✅      |
-| 5   | Loops & Data Processing         | ✅      |
-| 6   | Files, Exceptions & Modules     | ✅      |
-| 7   | Object-Oriented Programming     | ✅      |
+| Day | Topic | Status |
+| --- | --- | --- |
+| 1 | Python Fundamentals | ✅ |
+| 2 | Lists & Dictionaries | ✅ |
+| 3 | Control Flow | ✅ |
+| 4 | Functions & Modular Programming | ✅ |
+| 5 | Loops & Data Processing | ✅ |
+| 6 | Files, Exceptions & Modules | ✅ |
+| 7 | Object-Oriented Programming | ✅ |
 
 ### Key Concepts
 
@@ -133,29 +133,9 @@ Combined Python fundamentals, OOP, files, exceptions, functions, modules, loops 
 * Percentage distributions
 * `sort_values()`
 * `idxmax()` and `idxmin()`
-* `groupby()`
-* Multi-column grouping
-* `agg()`
+* `groupby()` and `agg()`
 * Correlation with `corr()`
 * Correlation vs causation
-
-EDA workflow:
-
-```text
-Understand Dataset
-      ↓
-Summarize Statistics
-      ↓
-Explore Categories
-      ↓
-Compare Groups
-      ↓
-Find High/Low Values
-      ↓
-Study Relationships
-      ↓
-Interpret Results
-```
 
 **Mini Project:** Student Performance EDA
 
@@ -163,24 +143,14 @@ Interpret Results
 
 ### Day 5 — Matplotlib Visualization ✅
 
-Learned how to turn Pandas analysis into clear visualizations using Matplotlib.
-
-Key concepts:
-
 * `matplotlib.pyplot`
-* `plt.figure()`
-* `figsize`
-* Titles and axis labels
+* Figure size, titles and labels
 * Bar charts
-* Horizontal bar charts
-* Histograms
-* Histogram bins
+* Histograms and bins
 * Scatter plots
 * Line plots
-* Markers
-* Grid
-* Legends
-* Rotating axis labels
+* Markers, grids and legends
+* Axis-label rotation
 * Visualizing grouped Pandas results
 
 Chart selection:
@@ -193,7 +163,7 @@ Histogram
 → Understand numerical distribution
 
 Scatter Plot
-→ Study relationship between two numerical variables
+→ Study relationships between numerical variables
 
 Line Plot
 → Show trends or ordered changes
@@ -215,40 +185,124 @@ More bins
 
 **Mini Project:** Student Performance Visualization Dashboard
 
+---
+
+### Day 6 — Seaborn / Advanced Visualization ✅
+
+Learned how to create statistical visualizations using Seaborn and Pandas.
+
+Key concepts:
+
+* Seaborn with Pandas DataFrames
+* `sns.barplot()`
+* `sns.histplot()`
+* KDE (`kde=True`)
+* `sns.boxplot()`
+* Median and distribution comparison
+* `sns.scatterplot()`
+* Categorical grouping with `hue`
+* `sns.regplot()`
+* Regression trend lines
+* `sns.heatmap()`
+* Correlation visualization
+* `annot=True`
+* `sns.pairplot()`
+* Multi-variable relationship analysis
+* Correlation vs causation
+
+Visualization selection:
+
+```text
+Bar Plot
+→ Compare categories
+
+Histogram + KDE
+→ Understand numerical distribution
+
+Box Plot
+→ Compare distributions across groups
+
+Scatter Plot + Hue
+→ Study relationships with categorical grouping
+
+Regression Plot
+→ Visualize relationship and trend
+
+Heatmap
+→ Visualize correlation matrix
+
+Pair Plot
+→ Explore multiple numerical relationships
+```
+
+Important concepts:
+
+```text
+hue="City"
+→ Adds categorical grouping
+
+kde=True
+→ Adds a smooth distribution estimate
+
+annot=True
+→ Displays numerical values inside heatmap cells
+
+Correlation ≠ Causation
+```
+
+**Mini Project:** Student Performance Advanced Visualization
+
 Created visualizations for:
 
 * Student average scores
-* Math score distribution
-* Python vs AI relationship
-* Math/Python/AI subject comparison
-* Average Math score by city
+* Math score distribution with KDE
+* Math score distributions by city
+* Python vs AI scores grouped by city
+* Python vs AI regression trend
+* Subject correlation heatmap
+* Math/Python/AI pairwise relationships
 
 ---
 
 ### Week 2 — Next
 
-* 🔜 Seaborn / Advanced Visualization
-* ⏳ Canadian Housing Analysis
+* 🔜 Canadian Housing Analysis
 
 ### Week 2 Final Project
 
 **Canadian Housing Analysis**
 
 ```text
-Load → Inspect → Clean → Analyze → Visualize → Insights
+Load
+  ↓
+Inspect
+  ↓
+Clean
+  ↓
+Analyze
+  ↓
+Visualize
+  ↓
+Interpret
+  ↓
+Insights
 ```
+
+This project will combine the complete Week 2 workflow:
+
+`NumPy` → `Pandas` → `Data Cleaning` → `EDA` → `Matplotlib` → `Seaborn`
 
 ---
 
 # 🗺️ Preparation Roadmap
 
-| Week       | Focus                            | Status         |
-| ---------- | -------------------------------- | -------------- |
-| Week 1     | Python                           | 🟢 Completed   |
-| Week 2     | NumPy + Pandas + Visualization   | 🟡 In Progress |
-| Week 3     | Machine Learning                 | ⚪ Upcoming     |
-| Week 4     | Deep Learning + TensorFlow/Keras | ⚪ Upcoming     |
-| Final Days | Revision + NLP + GitHub          | ⚪ Upcoming     |
+| Week | Focus | Status |
+| --- | --- | --- |
+| Week 1 | Python | 🟢 Completed |
+| Week 2 | NumPy + Pandas + Visualization | 🟡 In Progress |
+| Week 3 | Machine Learning | ⚪ Upcoming |
+| Week 4 | Deep Learning + TensorFlow/Keras | ⚪ Upcoming |
+| Final Days | Revision + NLP + GitHub | ⚪ Upcoming |
 
 ---
 
@@ -273,12 +327,12 @@ Week 1 — Python
 ██████████ 7/7 ✅
 
 Week 2 — Data Analysis
-███████░░░ 5/7 🟡
+█████████░ 6/7 🟡
 ```
 
-**Current focus:** Matplotlib Visualization ✅
+**Current focus:** Seaborn / Advanced Visualization ✅
 
-**Next:** Week 2 Day 6 — Seaborn / Advanced Visualization
+**Next:** Week 2 Day 7 — Canadian Housing Analysis 🏠📊
 
 ---
 
