@@ -83,6 +83,7 @@ Combined Python fundamentals, OOP, files, exceptions, functions, modules, loops 
 * Vectorized operations
 * Aggregations
 * Boolean filtering
+* Broadcasting
 * Reshaping and transpose
 
 **Mini Project:** Student Score Analyzer — NumPy Edition
@@ -108,25 +109,22 @@ Combined Python fundamentals, OOP, files, exceptions, functions, modules, loops 
 
 ### Day 3 — Data Cleaning ✅
 
-* `isna()` / `isnull()` / `notnull()`
-* `dropna()` and `fillna()`
-* Mean and median considerations
+* Missing-value detection with `isna()` / `isnull()`
+* `notnull()`, `dropna()` and `fillna()`
+* Mean / median considerations
+* Numerical vs categorical missing values
 * Duplicate detection and removal
 * String cleaning
 * `astype()`
 * `pd.to_numeric(errors="coerce")`
-* Missing and invalid value handling
-* Final dataset validation
+* Invalid-value handling
+* Dataset validation
 
 **Mini Project:** Messy Student Dataset Cleaner
 
 ---
 
 ### Day 4 — Exploratory Data Analysis ✅
-
-Learned how to explore and summarize clean datasets using Pandas.
-
-Key concepts:
 
 * `describe()`
 * Mean, median and standard deviation
@@ -136,10 +134,10 @@ Key concepts:
 * `sort_values()`
 * `idxmax()` and `idxmin()`
 * `groupby()`
-* Multiple-column grouping
+* Multi-column grouping
 * `agg()`
 * Correlation with `corr()`
-* Interpreting correlation vs causation
+* Correlation vs causation
 
 EDA workflow:
 
@@ -161,25 +159,75 @@ Interpret Results
 
 **Mini Project:** Student Performance EDA
 
-Analyzed:
+---
 
-* Dataset size and structure
-* Overall subject averages
-* Student averages
-* Highest and lowest performers
-* Top 3 students
-* Students per city
-* City-level subject averages
-* Mean/min/max grouped statistics
-* Correlations between Math, Python and AI scores
+### Day 5 — Matplotlib Visualization ✅
+
+Learned how to turn Pandas analysis into clear visualizations using Matplotlib.
+
+Key concepts:
+
+* `matplotlib.pyplot`
+* `plt.figure()`
+* `figsize`
+* Titles and axis labels
+* Bar charts
+* Horizontal bar charts
+* Histograms
+* Histogram bins
+* Scatter plots
+* Line plots
+* Markers
+* Grid
+* Legends
+* Rotating axis labels
+* Visualizing grouped Pandas results
+
+Chart selection:
+
+```text
+Bar Chart
+→ Compare categories
+
+Histogram
+→ Understand numerical distribution
+
+Scatter Plot
+→ Study relationship between two numerical variables
+
+Line Plot
+→ Show trends or ordered changes
+```
+
+Histogram understanding:
+
+```text
+Fewer bins
+→ Wider intervals
+→ More values grouped together
+→ Less detail
+
+More bins
+→ Narrower intervals
+→ Fewer values per interval
+→ More detail
+```
+
+**Mini Project:** Student Performance Visualization Dashboard
+
+Created visualizations for:
+
+* Student average scores
+* Math score distribution
+* Python vs AI relationship
+* Math/Python/AI subject comparison
+* Average Math score by city
 
 ---
 
 ### Week 2 — Next
 
-* 🔜 Matplotlib / Data Visualization
-* ⏳ Seaborn
-* ⏳ Advanced Visualization
+* 🔜 Seaborn / Advanced Visualization
 * ⏳ Canadian Housing Analysis
 
 ### Week 2 Final Project
@@ -225,12 +273,12 @@ Week 1 — Python
 ██████████ 7/7 ✅
 
 Week 2 — Data Analysis
-██████░░░░ 4/7 🟡
+███████░░░ 5/7 🟡
 ```
 
-**Current focus:** EDA / Data Analysis ✅
+**Current focus:** Matplotlib Visualization ✅
 
-**Next:** Week 2 Day 5 — Data Visualization
+**Next:** Week 2 Day 6 — Seaborn / Advanced Visualization
 
 ---
 
@@ -241,4 +289,3 @@ The goal is not to become an AI/ML expert before starting the program.
 The goal is to build enough practical foundation that new concepts feel familiar and easier to understand.
 
 **Learn → Code → Practice → Build → Review**
-
