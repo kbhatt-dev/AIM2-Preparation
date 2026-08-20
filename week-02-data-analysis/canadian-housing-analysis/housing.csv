@@ -1,0 +1,26 @@
+City,Province,Bedrooms,Bathrooms,Area_sqft,Price,Year_Built,Property_Type
+Toronto,Ontario,3,2,1650,980000.0,2005.0,Detached
+Vancouver,British Columbia,2,2,1200,1150000.0,2012.0,Condo
+Calgary,Alberta,4,3,2100,720000.0,2001.0,Detached
+Ottawa,Ontario,3,2,1500,760000.0,2010.0,Townhouse
+Montreal,Quebec,2,1,1100,590000.0,1998.0,Condo
+ london ,Ontario,3,2,1600,690000.0,2008.0,Detached
+Edmonton,Alberta,4,3,2200,610000.0,2003.0,Detached
+Halifax,Nova Scotia,2,1,1050,540000.0,2015.0,Condo
+Toronto,Ontario,4,3,2300,1250000.0,2018.0,Detached
+Vancouver,British Columbia,3,2,1750,1420000.0,2016.0,Condo
+Calgary,Alberta,3,2,1850,680000.0,2007.0,Townhouse
+Ottawa,Ontario,2,1,1250,625000.0,2000.0,Condo
+Montreal,Quebec,3,2,1450,710000.0,2011.0,Townhouse
+London,Ontario,4,3,2050,820000.0,2014.0,Detached
+Edmonton,Alberta,2,1,1150,485000.0,1995.0, condo 
+Halifax,Nova Scotia,3,2,1550,675000.0,2009.0,Townhouse
+Toronto,Ontario,2,1,950,615000.0,1990.0,Condo
+VANCOUVER,British Columbia,4,3,2400,1650000.0,2020.0,Detached
+Calgary,Alberta,3,2,1700,735000.0,2006.0,Townhouse
+Ottawa,Ontario,3,2,1625,810000.0,2013.0,Detached
+Montreal,Quebec,2,1,1000,525000.0,1997.0,CONDO
+London,Ontario,3,2,1725,,2004.0,Detached
+Edmonton,Alberta,4,3,2250,640000.0,,Detached
+Halifax,Nova Scotia,2,1,1125,575000.0,2010.0,Condo
+Ottawa,Ontario,3,2,1500,760000.0,2010.0,Townhouse
