@@ -183,25 +183,274 @@ Interpret
 
 ## Week 3 — Machine Learning 🤖 🟡
 
-| Day | Topic                         |     Status     |
-| --: | ----------------------------- | :------------: |
-|   1 | Machine Learning Fundamentals | 🟡 In Progress |
-|   2 | Upcoming                      |        ⚪       |
-|   3 | Upcoming                      |        ⚪       |
-|   4 | Upcoming                      |        ⚪       |
-|   5 | Upcoming                      |        ⚪       |
-|   6 | Upcoming                      |        ⚪       |
-|   7 | Customer Churn Prediction     |        ⚪       |
+| Day | Topic                         | Status |
+| --: | ----------------------------- | :----: |
+|   1 | Machine Learning Fundamentals |    ✅   |
+|   2 | Upcoming                      |    ⚪   |
+|   3 | Upcoming                      |    ⚪   |
+|   4 | Upcoming                      |    ⚪   |
+|   5 | Upcoming                      |    ⚪   |
+|   6 | Upcoming                      |    ⚪   |
+|   7 | Customer Churn Prediction     |    ⚪   |
+
+### ✅ Day 1 — Machine Learning Fundamentals
+
+Started the transition from **data analysis** into **machine learning** by learning how models use historical data to discover patterns and make predictions.
+
+### Key Concepts
+
+* What Machine Learning is
+* Traditional programming vs Machine Learning
+* Features (`X`) and target (`y`)
+* Supervised Learning
+* Unsupervised Learning
+* Regression
+* Classification
+* Clustering concept
+* Training data vs testing data
+* Model training and prediction
+* Generalization to unseen data
+* `train_test_split()`
+* `random_state`
+* `LinearRegression`
+* `model.fit()`
+* `model.predict()`
+* `y_test` vs `y_pred`
+* Actual vs predicted values
+* Basic prediction-error interpretation
+
+### Machine Learning Workflow
+
+```text
+Load Data
+   ↓
+Inspect Data
+   ↓
+Clean Data
+   ↓
+Explore Data
+   ↓
+Select Features (X)
+   ↓
+Select Target (y)
+   ↓
+Split Train/Test Data
+   ↓
+Choose Model
+   ↓
+Train Model
+   ↓
+Make Predictions
+   ↓
+Evaluate Model
+```
+
+### Supervised vs Unsupervised Learning
+
+```text
+Supervised Learning
+
+X + known y
+     ↓
+Learn relationship
+     ↓
+Predict y
+```
+
+```text
+Unsupervised Learning
+
+X only
+  ↓
+Discover hidden patterns,
+structure, or groups
+```
+
+An important distinction learned during Day 1 was that in unsupervised clustering there is **no predefined target `y`**.
+
+The groups or clusters are discovered by the algorithm instead of being supplied as known answers.
+
+### Regression vs Classification
+
+**Regression**
+
+Used when predicting numerical values.
+
+Examples:
+
+* House price
+* Salary
+* Temperature
+* Exam score
+
+**Classification**
+
+Used when predicting a category or class.
+
+Examples:
+
+* Spam / Not Spam
+* Approved / Rejected
+* Fraud / Legitimate
+* Cat / Dog / Horse
+
+### 🧪 Day 1 Practical Exercise — Study Hours → Exam Score
+
+Built the first Machine Learning model using **Linear Regression**.
+
+Dataset features:
+
+```text
+Feature:
+Study_Hours
+
+Target:
+Exam_Score
+```
+
+The dataset was split into:
+
+```text
+80% Training Data
+20% Testing Data
+```
+
+using:
+
+```python
+train_test_split(
+    X,
+    y,
+    test_size=0.20,
+    random_state=42
+)
+```
+
+The model was created and trained using:
+
+```python
+model = LinearRegression()
+
+model.fit(X_train, y_train)
+```
+
+Predictions were generated using:
+
+```python
+y_pred = model.predict(X_test)
+```
+
+### Prediction Results
+
+| Actual Score | Predicted Score |
+| -----------: | --------------: |
+|           86 |           85.58 |
+|           50 |           49.67 |
+
+The predictions were very close to the actual values.
+
+This introduced an important Machine Learning idea:
+
+> A prediction does not need to exactly equal the actual value. Model evaluation measures how far predictions are from the correct answers.
+
+### Day 1 Conceptual Assessment
+
+Practiced identifying the correct Machine Learning structure for different problems.
+
+#### Employee Salary Prediction
+
+```text
+Features:
+Years_Experience
+Education_Level
+Job_Role
+
+Target:
+Salary
+
+Learning Type:
+Supervised Learning
+
+Problem Type:
+Regression
+```
+
+#### Loan Approval Prediction
+
+```text
+Features:
+Income
+Credit_Score
+Debt
+
+Target:
+Loan_Approved
+
+Learning Type:
+Supervised Learning
+
+Problem Type:
+Classification
+```
+
+#### Customer Grouping
+
+```text
+Features:
+Age
+Income
+Annual_Spending
+
+Target:
+None
+
+Learning Type:
+Unsupervised Learning
+
+Task:
+Clustering
+```
+
+### Day 1 Key Mental Models
+
+```text
+X → Model → y
+```
+
+```text
+.fit() → LEARN
+.predict() → PREDICT
+```
+
+```text
+Training Data
+     ↓
+Model Learns
+
+Testing Data
+     ↓
+Unseen Exam
+```
+
+```text
+X_test
+   ↓
+Trained Model
+   ↓
+y_pred
+
+y_pred ↔ y_test
+```
 
 ### Current Focus
 
-Building the foundation required to move from **data analysis** into **machine learning**, including understanding how data is used to train models and how machine learning problems are structured.
+Continue building the foundation required to move from **analyzing existing data** into **training, evaluating, and improving Machine Learning models**.
 
 ### Planned Final Project
 
 #### 📉 Customer Churn Prediction
 
-The Week 3 project will apply the complete machine learning workflow to a practical prediction problem.
+The Week 3 final project will apply the complete Machine Learning workflow to a practical prediction problem.
 
 ```text
 Data
@@ -276,7 +525,7 @@ Week 2 — Data Analysis
 ██████████  7/7  ✅
 
 Week 3 — Machine Learning
-░░░░░░░░░░  In Progress 🟡
+█░░░░░░░░░  1/7  🟡
 
 Week 4 — Deep Learning
 ░░░░░░░░░░  Upcoming ⚪
@@ -285,7 +534,9 @@ Week 4 — Deep Learning
 **Completed:** Week 1 — Python 🐍 ✅
 **Completed:** Week 2 — Data Analysis 📊 ✅
 **Current Focus:** Week 3 — Machine Learning 🤖
-**Current Day:** Day 1 — Machine Learning Fundamentals
+**Completed Week 3 Days:** 1/7
+**Latest Completed Day:** Day 1 — Machine Learning Fundamentals ✅
+**Next:** Week 3 — Day 2
 
 ---
 
@@ -303,24 +554,28 @@ Each stage of this preparation focuses on understanding concepts first, applying
 
 ## 🚀 Progress So Far
 
-Two major stages of the preparation roadmap are complete:
+Two complete stages of the preparation roadmap are finished, and Machine Learning is now underway:
 
 **Python → Data Analysis → Machine Learning → Deep Learning**
 
 ```text
-Python                 ✅
+Python                  ✅
    ↓
-NumPy & Pandas         ✅
+NumPy & Pandas          ✅
    ↓
-Data Cleaning          ✅
+Data Cleaning           ✅
    ↓
-EDA                    ✅
+EDA                     ✅
    ↓
-Visualization          ✅
+Visualization           ✅
    ↓
-Machine Learning       🟡
+Machine Learning        🟡
+   │
+   └── Day 1            ✅
    ↓
-Deep Learning          ⚪
+Deep Learning           ⚪
 ```
 
-The next stage is focused on learning how to move from **analyzing existing data** to **building models that learn patterns from data and make predictions**.
+The Machine Learning stage has now begun with the fundamentals of **features, targets, supervised and unsupervised learning, regression, classification, train/test splitting, model training, and prediction**.
+
+The next step is to continue building the Machine Learning workflow and gradually move from simple models toward the **Customer Churn Prediction** final project.
