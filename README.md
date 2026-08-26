@@ -183,276 +183,84 @@ Interpret
 
 ## Week 3 — Machine Learning 🤖 🟡
 
-| Day | Topic                         | Status |
-| --: | ----------------------------- | :----: |
-|   1 | Machine Learning Fundamentals |    ✅   |
-|   2 | Upcoming                      |    ⚪   |
-|   3 | Upcoming                      |    ⚪   |
-|   4 | Upcoming                      |    ⚪   |
-|   5 | Upcoming                      |    ⚪   |
-|   6 | Upcoming                      |    ⚪   |
-|   7 | Customer Churn Prediction     |    ⚪   |
-
-### ✅ Day 1 — Machine Learning Fundamentals
-
-Started the transition from **data analysis** into **machine learning** by learning how models use historical data to discover patterns and make predictions.
+| Day | Topic                                | Status |
+| --: | ------------------------------------ | :----: |
+|   1 | Machine Learning Fundamentals        |    ✅   |
+|   2 | Linear Regression & Model Evaluation |    ✅   |
+|   3 | Upcoming                             |    ⚪   |
+|   4 | Upcoming                             |    ⚪   |
+|   5 | Upcoming                             |    ⚪   |
+|   6 | Upcoming                             |    ⚪   |
+|   7 | Customer Churn Prediction            |    ⚪   |
 
 ### Key Concepts
 
-* What Machine Learning is
-* Traditional programming vs Machine Learning
+* Machine Learning workflow
 * Features (`X`) and target (`y`)
-* Supervised Learning
-* Unsupervised Learning
-* Regression
-* Classification
-* Clustering concept
-* Training data vs testing data
-* Model training and prediction
-* Generalization to unseen data
+* Supervised vs. unsupervised learning
+* Regression vs. classification
+* Training and testing data
 * `train_test_split()`
-* `random_state`
-* `LinearRegression`
-* `model.fit()`
-* `model.predict()`
-* `y_test` vs `y_pred`
-* Actual vs predicted values
-* Basic prediction-error interpretation
+* Linear Regression
+* Slope and intercept
+* `model.fit()` and `model.predict()`
+* Actual vs. predicted values
+* Residuals and prediction errors
+* MAE, MSE, and RMSE
+* R² model evaluation
+* Interpolation vs. extrapolation
+* Introduction to overfitting
 
-### Machine Learning Workflow
+### Practical Exercises
 
-```text
-Load Data
-   ↓
-Inspect Data
-   ↓
-Clean Data
-   ↓
-Explore Data
-   ↓
-Select Features (X)
-   ↓
-Select Target (y)
-   ↓
-Split Train/Test Data
-   ↓
-Choose Model
-   ↓
-Train Model
-   ↓
-Make Predictions
-   ↓
-Evaluate Model
-```
+#### 📚 Study Hours → Exam Score Prediction
 
-### Supervised vs Unsupervised Learning
+Built the first Linear Regression model to:
 
-```text
-Supervised Learning
+* Predict exam scores from study hours
+* Split data into training and testing sets
+* Train a model using `LinearRegression`
+* Compare actual and predicted scores
 
-X + known y
-     ↓
-Learn relationship
-     ↓
-Predict y
-```
+#### 💼 Experience → Salary Prediction
 
-```text
-Unsupervised Learning
+Built and evaluated a salary prediction model to:
 
-X only
+* Predict salary from years of experience
+* Interpret model slope and intercept
+* Evaluate predictions using MAE, MSE, RMSE, and R²
+* Predict salary for new input data
+* Understand basic model generalization and overfitting
+
+### Progress So Far
+
+```text id="cjyq4d"
+Data
   ↓
-Discover hidden patterns,
-structure, or groups
+Select X and y
+  ↓
+Train/Test Split
+  ↓
+Train Model
+  ↓
+Predict
+  ↓
+Evaluate
+  ↓
+Interpret
 ```
 
-An important distinction learned during Day 1 was that in unsupervised clustering there is **no predefined target `y`**.
-
-The groups or clusters are discovered by the algorithm instead of being supplied as known answers.
-
-### Regression vs Classification
-
-**Regression**
-
-Used when predicting numerical values.
-
-Examples:
-
-* House price
-* Salary
-* Temperature
-* Exam score
-
-**Classification**
-
-Used when predicting a category or class.
-
-Examples:
-
-* Spam / Not Spam
-* Approved / Rejected
-* Fraud / Legitimate
-* Cat / Dog / Horse
-
-### 🧪 Day 1 Practical Exercise — Study Hours → Exam Score
-
-Built the first Machine Learning model using **Linear Regression**.
-
-Dataset features:
-
-```text
-Feature:
-Study_Hours
-
-Target:
-Exam_Score
-```
-
-The dataset was split into:
-
-```text
-80% Training Data
-20% Testing Data
-```
-
-using:
-
-```python
-train_test_split(
-    X,
-    y,
-    test_size=0.20,
-    random_state=42
-)
-```
-
-The model was created and trained using:
-
-```python
-model = LinearRegression()
-
-model.fit(X_train, y_train)
-```
-
-Predictions were generated using:
-
-```python
-y_pred = model.predict(X_test)
-```
-
-### Prediction Results
-
-| Actual Score | Predicted Score |
-| -----------: | --------------: |
-|           86 |           85.58 |
-|           50 |           49.67 |
-
-The predictions were very close to the actual values.
-
-This introduced an important Machine Learning idea:
-
-> A prediction does not need to exactly equal the actual value. Model evaluation measures how far predictions are from the correct answers.
-
-### Day 1 Conceptual Assessment
-
-Practiced identifying the correct Machine Learning structure for different problems.
-
-#### Employee Salary Prediction
-
-```text
-Features:
-Years_Experience
-Education_Level
-Job_Role
-
-Target:
-Salary
-
-Learning Type:
-Supervised Learning
-
-Problem Type:
-Regression
-```
-
-#### Loan Approval Prediction
-
-```text
-Features:
-Income
-Credit_Score
-Debt
-
-Target:
-Loan_Approved
-
-Learning Type:
-Supervised Learning
-
-Problem Type:
-Classification
-```
-
-#### Customer Grouping
-
-```text
-Features:
-Age
-Income
-Annual_Spending
-
-Target:
-None
-
-Learning Type:
-Unsupervised Learning
-
-Task:
-Clustering
-```
-
-### Day 1 Key Mental Models
-
-```text
-X → Model → y
-```
-
-```text
-.fit() → LEARN
-.predict() → PREDICT
-```
-
-```text
-Training Data
-     ↓
-Model Learns
-
-Testing Data
-     ↓
-Unseen Exam
-```
-
-```text
-X_test
-   ↓
-Trained Model
-   ↓
-y_pred
-
-y_pred ↔ y_test
-```
-
-### Current Focus
-
-Continue building the foundation required to move from **analyzing existing data** into **training, evaluating, and improving Machine Learning models**.
+**Completed:** Day 1 — Machine Learning Fundamentals ✅
+**Completed:** Day 2 — Linear Regression & Model Evaluation ✅
+**Week 3 Progress:** 2/7 🟡
 
 ### Planned Final Project
 
 #### 📉 Customer Churn Prediction
 
-The Week 3 final project will apply the complete Machine Learning workflow to a practical prediction problem.
+The Week 3 final project will apply the complete Machine Learning workflow to a practical classification problem.
 
-```text
+```text id="ffzx2i"
 Data
   ↓
 Prepare
@@ -525,18 +333,18 @@ Week 2 — Data Analysis
 ██████████  7/7  ✅
 
 Week 3 — Machine Learning
-█░░░░░░░░░  1/7  🟡
+███░░░░░░░  2/7  🟡
 
 Week 4 — Deep Learning
 ░░░░░░░░░░  Upcoming ⚪
 ```
 
-**Completed:** Week 1 — Python 🐍 ✅
-**Completed:** Week 2 — Data Analysis 📊 ✅
-**Current Focus:** Week 3 — Machine Learning 🤖
-**Completed Week 3 Days:** 1/7
-**Latest Completed Day:** Day 1 — Machine Learning Fundamentals ✅
-**Next:** Week 3 — Day 2
+**Completed:** Week 1 — Python 🐍 ✅  
+**Completed:** Week 2 — Data Analysis 📊 ✅  
+**Current Focus:** Week 3 — Machine Learning 🤖  
+**Completed Week 3 Days:** 2/7  
+**Latest Completed Day:** Day 2 — Linear Regression & Model Evaluation ✅  
+**Next:** Week 3 — Day 3
 
 ---
 
