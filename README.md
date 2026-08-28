@@ -187,7 +187,7 @@ Interpret
 | --: | ------------------------------------ | :----: |
 |   1 | Machine Learning Fundamentals        |    ✅   |
 |   2 | Linear Regression & Model Evaluation |    ✅   |
-|   3 | Upcoming                             |    ⚪   |
+|   3 | Classification & Logistic Regression |    ✅   |
 |   4 | Upcoming                             |    ⚪   |
 |   5 | Upcoming                             |    ⚪   |
 |   6 | Upcoming                             |    ⚪   |
@@ -199,81 +199,41 @@ Interpret
 * Features (`X`) and target (`y`)
 * Supervised vs. unsupervised learning
 * Regression vs. classification
-* Training and testing data
-* `train_test_split()`
+* Train/test splitting
 * Linear Regression
-* Slope and intercept
-* `model.fit()` and `model.predict()`
-* Actual vs. predicted values
-* Residuals and prediction errors
-* MAE, MSE, and RMSE
-* R² model evaluation
-* Interpolation vs. extrapolation
-* Introduction to overfitting
+* Logistic Regression
+* `fit()`, `predict()`, and `predict_proba()`
+* MAE, MSE, RMSE, and R²
+* Accuracy and Confusion Matrix
+* TP, TN, FP, and FN
+* Class imbalance
+* `stratify=y`
+* Basic overfitting and model generalization
 
 ### Practical Exercises
 
-#### 📚 Study Hours → Exam Score Prediction
+#### 📚 Study Hours → Exam Score
+Built a basic Linear Regression model and compared actual vs. predicted scores.
 
-Built the first Linear Regression model to:
+#### 💼 Experience → Salary
+Built and evaluated a Linear Regression model using MAE, MSE, RMSE, and R².
 
-* Predict exam scores from study hours
-* Split data into training and testing sets
-* Train a model using `LinearRegression`
-* Compare actual and predicted scores
+#### 🏦 Loan Approval Prediction
+Built the first classification model using Logistic Regression.
 
-#### 💼 Experience → Salary Prediction
+* Predicted Approved / Rejected classes
+* Inspected class probabilities
+* Used a confusion matrix
+* Calculated accuracy
+* Practiced TP, TN, FP, and FN
+* Learned why high accuracy can sometimes be misleading
 
-Built and evaluated a salary prediction model to:
-
-* Predict salary from years of experience
-* Interpret model slope and intercept
-* Evaluate predictions using MAE, MSE, RMSE, and R²
-* Predict salary for new input data
-* Understand basic model generalization and overfitting
-
-### Progress So Far
-
-```text id="cjyq4d"
-Data
-  ↓
-Select X and y
-  ↓
-Train/Test Split
-  ↓
-Train Model
-  ↓
-Predict
-  ↓
-Evaluate
-  ↓
-Interpret
-```
-
-**Completed:** Day 1 — Machine Learning Fundamentals ✅
-**Completed:** Day 2 — Linear Regression & Model Evaluation ✅
-**Week 3 Progress:** 2/7 🟡
 
 ### Planned Final Project
 
 #### 📉 Customer Churn Prediction
 
-The Week 3 final project will apply the complete Machine Learning workflow to a practical classification problem.
-
-```text id="ffzx2i"
-Data
-  ↓
-Prepare
-  ↓
-Split
-  ↓
-Train
-  ↓
-Predict
-  ↓
-Evaluate
-  ↓
-Interpret
+The Week 3 final project will apply the complete Machine Learning classification workflow.
 ```
 
 ---
@@ -333,7 +293,7 @@ Week 2 — Data Analysis
 ██████████  7/7  ✅
 
 Week 3 — Machine Learning
-███░░░░░░░  2/7  🟡
+████░░░░░░  3/7  🟡
 
 Week 4 — Deep Learning
 ░░░░░░░░░░  Upcoming ⚪
@@ -342,9 +302,7 @@ Week 4 — Deep Learning
 **Completed:** Week 1 — Python 🐍 ✅  
 **Completed:** Week 2 — Data Analysis 📊 ✅  
 **Current Focus:** Week 3 — Machine Learning 🤖  
-**Completed Week 3 Days:** 2/7  
-**Latest Completed Day:** Day 2 — Linear Regression & Model Evaluation ✅  
-**Next:** Week 3 — Day 3
+**Completed Week 3 Days:** 3/7  
 
 ---
 
@@ -378,8 +336,6 @@ EDA                     ✅
 Visualization           ✅
    ↓
 Machine Learning        🟡
-   │
-   └── Day 1            ✅
    ↓
 Deep Learning           ⚪
 ```
