@@ -189,7 +189,7 @@ Interpret
 | 2 | Linear Regression & Model Evaluation | ✅ |
 | 3 | Classification & Logistic Regression | ✅ |
 | 4 | Classification Model Evaluation | ✅ |
-| 5 | Upcoming | ⚪ |
+| 5 | Decision Trees & Overfitting | ✅ |
 | 6 | Upcoming | ⚪ |
 | 7 | Customer Churn Prediction | ⚪ |
 
@@ -202,17 +202,23 @@ Interpret
 * Train/test splitting and `stratify`
 * Linear Regression
 * Logistic Regression
-* `fit()`, `predict()`, and `predict_proba()`
-* MAE, MSE, RMSE, and R²
+* Decision Tree Classification
+* Root nodes, branches, and leaf nodes
+* Gini impurity
+* `max_depth` and model complexity
+* Underfitting vs. overfitting
+* Training vs. testing performance
+* Feature importance
+* Model generalization
 * Accuracy and Confusion Matrix
-* TP, TN, FP, and FN
 * Precision, Recall, and F1 Score
 * Classification Report and Support
 * Classification thresholds
 * Precision–Recall trade-off
 * Class imbalance
-* Model evaluation based on business goals
-* Basic overfitting and model generalization
+* Choosing evaluation metrics based on business goals
+
+### Practical Exercises
 
 #### 📚 Study Hours → Exam Score
 Built a basic Linear Regression model and compared actual vs. predicted scores.
@@ -221,27 +227,28 @@ Built a basic Linear Regression model and compared actual vs. predicted scores.
 Built and evaluated a Linear Regression model using MAE, MSE, RMSE, and R².
 
 #### 🏦 Loan Approval Prediction
-Built the first classification model using Logistic Regression and evaluated it using accuracy and a confusion matrix.
+Built a Logistic Regression classification model and evaluated it using accuracy and a confusion matrix.
 
 #### 🎓 Student Pass/Fail Classification
-Evaluated a Logistic Regression classification model using:
+Evaluated a classification model using Accuracy, Precision, Recall, F1 Score, classification reports, and different classification thresholds.
 
-* Accuracy
-* Precision
-* Recall
-* F1 Score
-* Confusion Matrix
-* Classification Report
-* Different classification thresholds
+#### 🌳 Customer Churn — Decision Tree
+Built and evaluated a Decision Tree Classifier.
 
-Explored how changing the threshold can affect Precision, Recall, False Positives, and False Negatives.
+* Compared unrestricted and depth-limited trees
+* Compared training and testing accuracy
+* Practiced identifying overfitting and underfitting
+* Tested `max_depth` values from 1–5 and unrestricted
+* Selected a simpler tree when test performance was equal
+* Analyzed feature importance
+* Predicted churn for new customers
+* Reinforced that feature importance does not imply causation
 
 ### Planned Final Project
 
 #### 📉 Customer Churn Prediction
 
 The Week 3 final project will apply the complete Machine Learning classification workflow to predict customers who may leave.
-
 ```
 
 ---
@@ -301,7 +308,7 @@ Week 2 — Data Analysis
 ██████████  7/7  ✅
 
 Week 3 — Machine Learning
-██████░░░░  4/7  🟡
+███████░░░  5/7  🟡
 
 Week 4 — Deep Learning
 ░░░░░░░░░░  Upcoming ⚪
