@@ -183,15 +183,15 @@ Interpret
 
 ## Week 3 — Machine Learning 🤖 🟡
 
-| Day | Topic                                | Status |
-| --: | ------------------------------------ | :----: |
-|   1 | Machine Learning Fundamentals        |    ✅   |
-|   2 | Linear Regression & Model Evaluation |    ✅   |
-|   3 | Classification & Logistic Regression |    ✅   |
-|   4 | Upcoming                             |    ⚪   |
-|   5 | Upcoming                             |    ⚪   |
-|   6 | Upcoming                             |    ⚪   |
-|   7 | Customer Churn Prediction            |    ⚪   |
+| Day | Topic | Status |
+| --: | ----------------------------------------- | :----: |
+| 1 | Machine Learning Fundamentals | ✅ |
+| 2 | Linear Regression & Model Evaluation | ✅ |
+| 3 | Classification & Logistic Regression | ✅ |
+| 4 | Classification Model Evaluation | ✅ |
+| 5 | Upcoming | ⚪ |
+| 6 | Upcoming | ⚪ |
+| 7 | Customer Churn Prediction | ⚪ |
 
 ### Key Concepts
 
@@ -199,18 +199,20 @@ Interpret
 * Features (`X`) and target (`y`)
 * Supervised vs. unsupervised learning
 * Regression vs. classification
-* Train/test splitting
+* Train/test splitting and `stratify`
 * Linear Regression
 * Logistic Regression
 * `fit()`, `predict()`, and `predict_proba()`
 * MAE, MSE, RMSE, and R²
 * Accuracy and Confusion Matrix
 * TP, TN, FP, and FN
+* Precision, Recall, and F1 Score
+* Classification Report and Support
+* Classification thresholds
+* Precision–Recall trade-off
 * Class imbalance
-* `stratify=y`
+* Model evaluation based on business goals
 * Basic overfitting and model generalization
-
-### Practical Exercises
 
 #### 📚 Study Hours → Exam Score
 Built a basic Linear Regression model and compared actual vs. predicted scores.
@@ -219,21 +221,27 @@ Built a basic Linear Regression model and compared actual vs. predicted scores.
 Built and evaluated a Linear Regression model using MAE, MSE, RMSE, and R².
 
 #### 🏦 Loan Approval Prediction
-Built the first classification model using Logistic Regression.
+Built the first classification model using Logistic Regression and evaluated it using accuracy and a confusion matrix.
 
-* Predicted Approved / Rejected classes
-* Inspected class probabilities
-* Used a confusion matrix
-* Calculated accuracy
-* Practiced TP, TN, FP, and FN
-* Learned why high accuracy can sometimes be misleading
+#### 🎓 Student Pass/Fail Classification
+Evaluated a Logistic Regression classification model using:
 
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Confusion Matrix
+* Classification Report
+* Different classification thresholds
+
+Explored how changing the threshold can affect Precision, Recall, False Positives, and False Negatives.
 
 ### Planned Final Project
 
 #### 📉 Customer Churn Prediction
 
-The Week 3 final project will apply the complete Machine Learning classification workflow.
+The Week 3 final project will apply the complete Machine Learning classification workflow to predict customers who may leave.
+
 ```
 
 ---
@@ -293,7 +301,7 @@ Week 2 — Data Analysis
 ██████████  7/7  ✅
 
 Week 3 — Machine Learning
-████░░░░░░  3/7  🟡
+██████░░░░  4/7  🟡
 
 Week 4 — Deep Learning
 ░░░░░░░░░░  Upcoming ⚪
