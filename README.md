@@ -190,7 +190,7 @@ Interpret
 | 3 | Classification & Logistic Regression | ✅ |
 | 4 | Classification Model Evaluation | ✅ |
 | 5 | Decision Trees & Overfitting | ✅ |
-| 6 | Upcoming | ⚪ |
+| 6 | Random Forest & Model Comparison | ✅ |
 | 7 | Customer Churn Prediction | ⚪ |
 
 ### Key Concepts
@@ -203,20 +203,23 @@ Interpret
 * Linear Regression
 * Logistic Regression
 * Decision Tree Classification
-* Root nodes, branches, and leaf nodes
+* Random Forest Classification
+* Ensemble learning
+* Bootstrap sampling
+* Random feature selection
+* `n_estimators`
 * Gini impurity
 * `max_depth` and model complexity
 * Underfitting vs. overfitting
-* Training vs. testing performance
-* Feature importance
 * Model generalization
-* Accuracy and Confusion Matrix
-* Precision, Recall, and F1 Score
-* Classification Report and Support
+* Feature importance
+* Accuracy, Precision, Recall, and F1 Score
+* Confusion Matrix and Classification Report
 * Classification thresholds
 * Precision–Recall trade-off
 * Class imbalance
-* Choosing evaluation metrics based on business goals
+* Model comparison
+* Business-driven model selection
 
 ### Practical Exercises
 
@@ -233,22 +236,39 @@ Built a Logistic Regression classification model and evaluated it using accuracy
 Evaluated a classification model using Accuracy, Precision, Recall, F1 Score, classification reports, and different classification thresholds.
 
 #### 🌳 Customer Churn — Decision Tree
-Built and evaluated a Decision Tree Classifier.
+Built and evaluated a Decision Tree Classifier, explored Gini impurity, `max_depth`, overfitting, underfitting, generalization, and feature importance.
 
-* Compared unrestricted and depth-limited trees
-* Compared training and testing accuracy
-* Practiced identifying overfitting and underfitting
-* Tested `max_depth` values from 1–5 and unrestricted
-* Selected a simpler tree when test performance was equal
-* Analyzed feature importance
-* Predicted churn for new customers
-* Reinforced that feature importance does not imply causation
+#### 🌲 Random Forest & Model Comparison
+Built and compared Logistic Regression, Decision Tree, and Random Forest models using the same train/test split.
+
+* Learned ensemble learning
+* Learned bootstrap sampling and random feature selection
+* Built a Random Forest Classifier
+* Compared Accuracy, Precision, Recall, and F1
+* Compared training and testing performance
+* Analyzed Random Forest feature importance
+* Experimented with different `n_estimators` values
+* Learned that more trees do not always continuously improve performance
+* Selected evaluation metrics based on business goals
+
+### Day 6 Model Comparison
+
+| Model | Accuracy | Precision | Recall | F1 |
+| --- | ---: | ---: | ---: | ---: |
+| Logistic Regression | 1.000 | 1.000 | 1.000 | 1.000 |
+| Decision Tree | 0.933 | 0.875 | 1.000 | 0.933 |
+| Random Forest | 1.000 | 1.000 | 1.000 | 1.000 |
+
+Logistic Regression and Random Forest achieved the strongest overall test performance on the Day 6 synthetic dataset.
+
+> High performance on a small synthetic dataset does not guarantee the same performance on real-world data.
 
 ### Planned Final Project
 
 #### 📉 Customer Churn Prediction
 
 The Week 3 final project will apply the complete Machine Learning classification workflow to predict customers who may leave.
+
 ```
 
 ---
@@ -308,7 +328,7 @@ Week 2 — Data Analysis
 ██████████  7/7  ✅
 
 Week 3 — Machine Learning
-███████░░░  5/7  🟡
+█████████░  6/7  🟡
 
 Week 4 — Deep Learning
 ░░░░░░░░░░  Upcoming ⚪
