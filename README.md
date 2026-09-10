@@ -1,55 +1,34 @@
-Pasted markdown(4).md
-File
-could you pelase update my day 4 content as .md style ? 
+**# AIM2 Preparation 🚀**
 
+My preparation journey for the \*\*Artificial Intelligence and Machine
 
-Done — I updated your attached README into cleaner .md / GitHub Markdown style, focusing on the Week 4 Deep Learning section and your completed Day 1 — Neural Network Foundations content. Your original file already showed Week 4 at 1/7 days complete with the Day 1 topics and practical work.
-
-I also updated:
-
-Week 4 → 🟡 In Progress
-Progress bar → 1/7
-Day 1 topics + practical work in proper Markdown bullets
-Mini-project workflow in a code block
-Planned MNIST Digit Classifier
-Next step → Day 2: TensorFlow & Keras Foundations
-
-Download the updated README.md
-
-AIM2-Preparation-README-Week4-Day1.md
-Document
-
-# AIM2 Preparation 🚀
-
-My preparation journey for the **Artificial Intelligence and Machine
-
-Learning (AIM2)** graduate program at Fanshawe College.
+Learning (AIM2)\*\* graduate program at Fanshawe College.
 
 The goal of this repository is to build a strong practical foundation in
 
-**Python, Data Analysis, Machine Learning, and Deep Learning** through
+**\*\*Python, Data Analysis, Machine Learning, and Deep Learning\*\*** through
 
 hands-on exercises, mini-projects, and end-to-end projects.
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-## 🎯 Preparation Goals
+**## 🎯 Preparation Goals**
 
-`Python` · `NumPy` · `Pandas` · `Matplotlib` · `Seaborn` ·
+\`Python\` · \`NumPy\` · \`Pandas\` · \`Matplotlib\` · \`Seaborn\` ·
 
-`Scikit-learn` · `TensorFlow/Keras` · `PyTorch` · `NLP` · `Git/GitHub`
+\`Scikit-learn\` · \`TensorFlow/Keras\` · \`PyTorch\` · \`NLP\` · \`Git/GitHub\`
 
-Previous learning includes **Java, Spring Boot, Spring Cloud, Docker,
+Previous learning includes \*\*Java, Spring Boot, Spring Cloud, Docker,
 
-Kubernetes, Helm, and Microservices Security**, so this preparation
+Kubernetes, Helm, and Microservices Security\*\*, so this preparation
 
 focuses primarily on Python and AI/ML.
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-## 🗂️ Repository Structure
+**## 🗂️ Repository Structure**
 
-``` text
+\`\`\` text
 
 AIM2-Preparation/
 
@@ -57,575 +36,575 @@ AIM2-Preparation/
 
 ├── week-01-python/
 
-│   ├── notes/
+│   ├── notes/
 
-│   ├── exercises/
+│   ├── exercises/
 
-│   └── student-performance-analyzer/
+│   └── student-performance-analyzer/
 
 │
 
 ├── week-02-data-analysis/
 
-│   ├── notes/
+│   ├── notes/
 
-│   ├── datasets/
+│   ├── datasets/
 
-│   └── canadian-housing-analysis/
+│   └── canadian-housing-analysis/
 
 │
 
 ├── week-03-machine-learning/
 
-│   ├── notebooks/
+│   ├── notebooks/
 
-│   ├── datasets/
+│   ├── datasets/
 
-│   └── customer-churn-prediction/
+│   └── customer-churn-prediction/
 
-│       ├── customer_churn.csv
+│       ├── customer\_churn.csv
 
-│       ├── customer_churn_prediction.py
+│       ├── customer\_churn\_prediction.py
 
-│       └── chart/
+│       └── chart/
 
-│            ├── confusion matrix.png
+│            ├── confusion matrix.png
 
-│            └── Plot feature importance.png
+│            └── Plot feature importance.png
 
 │
 
 ├── week-04-deep-learning/
 
-│   └── mnist-digit-classifier/
+│   └── mnist-digit-classifier/
 
 │
 
 └── README.md
 
-```
+\`\`\`
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-# 📅 Learning Progress
+**# 📅 Learning Progress**
 
-## Week 1 --- Python 🐍 ✅
+**## Week 1 --- Python 🐍 ✅**
 
-    Day Topic                              Status
+    Day Topic                              Status
 
-**  ----- --------------------------------- --------**
+**  ----- --------------------------------- --------**
 
-      1 Python Fundamentals                  ✅
+      1 Python Fundamentals                  ✅
 
-      2 Lists & Dictionaries                 ✅
+      2 Lists & Dictionaries                 ✅
 
-      3 Control Flow                         ✅
+      3 Control Flow                         ✅
 
-      4 Functions & Modular Programming      ✅
+      4 Functions & Modular Programming      ✅
 
-      5 Loops & Data Processing              ✅
+      5 Loops & Data Processing              ✅
 
-      6 Files, Exceptions & Modules          ✅
+      6 Files, Exceptions & Modules          ✅
 
-      7 Object-Oriented Programming          ✅
+      7 Object-Oriented Programming          ✅
 
-### Key Concepts
+**### Key Concepts**
 
--   Variables, data types, strings, and string methods
+\-   Variables, data types, strings, and string methods
 
--   Lists and dictionaries
+\-   Lists and dictionaries
 
--   Conditional logic with `if`, `elif`, and `else`
+\-   Conditional logic with \`if\`, \`elif\`, and \`else\`
 
--   `for` and `while` loops
+\-   \`for\` and \`while\` loops
 
--   Functions, parameters, and return values
+\-   Functions, parameters, and return values
 
--   File handling
+\-   File handling
 
--   Exception handling with `try` / `except`
+\-   Exception handling with \`try\` / \`except\`
 
--   Modules and imports
+\-   Modules and imports
 
--   `enumerate()`, `zip()`, and list comprehensions
+\-   \`enumerate()\`, \`zip()\`, and list comprehensions
 
--   Classes and objects
+\-   Classes and objects
 
--   Constructors with `__init__`
+\-   Constructors with \`\_\_init\_\_\`
 
--   Inheritance and `super()`
+\-   Inheritance and \`super()\`
 
-### Projects
+**### Projects**
 
-#### 🎓 Student Performance / Gradebook Analyzer
+**#### 🎓 Student Performance / Gradebook Analyzer**
 
 Built a Python program for working with student information and scores,
 
 including:
 
--   Student data management
+\-   Student data management
 
--   Total score calculation
+\-   Total score calculation
 
--   Average score calculation
+\-   Average score calculation
 
--   Pass/fail determination
+\-   Pass/fail determination
 
--   Grade analysis
+\-   Grade analysis
 
-#### 📄 Student Grade Sheet Analyzer
+**#### 📄 Student Grade Sheet Analyzer**
 
 Applied Python fundamentals, file handling, data processing, and OOP to:
 
--   Read student data from files
+\-   Read student data from files
 
--   Calculate student statistics
+\-   Calculate student statistics
 
--   Determine pass/fail results
+\-   Determine pass/fail results
 
--   Identify highest and lowest performers
+\-   Identify highest and lowest performers
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-## Week 2 --- Data Analysis 📊 ✅
+**## Week 2 --- Data Analysis 📊 ✅**
 
-    Day Topic                               Status
+    Day Topic                               Status
 
-**  ----- ---------------------------------- --------**
+**  ----- ---------------------------------- --------**
 
-      1 NumPy Fundamentals                    ✅
+      1 NumPy Fundamentals                    ✅
 
-      2 Pandas Fundamentals                   ✅
+      2 Pandas Fundamentals                   ✅
 
-      3 Data Cleaning                         ✅
+      3 Data Cleaning                         ✅
 
-      4 Exploratory Data Analysis             ✅
+      4 Exploratory Data Analysis             ✅
 
-      5 Matplotlib Visualization              ✅
+      5 Matplotlib Visualization              ✅
 
-      6 Seaborn / Advanced Visualization      ✅
+      6 Seaborn / Advanced Visualization      ✅
 
-      7 Canadian Housing Analysis             ✅
+      7 Canadian Housing Analysis             ✅
 
-### Key Concepts
+**### Key Concepts**
 
--   NumPy arrays, dimensions, shapes, and data types
+\-   NumPy arrays, dimensions, shapes, and data types
 
--   Array slicing and indexing
+\-   Array slicing and indexing
 
--   Vectorized operations
+\-   Vectorized operations
 
--   Aggregation and broadcasting
+\-   Aggregation and broadcasting
 
--   Pandas `Series` and `DataFrame`
+\-   Pandas \`Series\` and \`DataFrame\`
 
--   Data inspection with `head()`, `tail()`, `info()`, and `describe()`
+\-   Data inspection with \`head()\`, \`tail()\`, \`info()\`, and \`describe()\`
 
--   Filtering with `loc`, `iloc`, and Boolean masks
+\-   Filtering with \`loc\`, \`iloc\`, and Boolean masks
 
--   Missing-value detection and handling
+\-   Missing-value detection and handling
 
--   Duplicate detection and removal
+\-   Duplicate detection and removal
 
--   String cleaning and datatype conversion
+\-   String cleaning and datatype conversion
 
--   Mean, median, and standard deviation
+\-   Mean, median, and standard deviation
 
--   `value_counts()`, `groupby()`, and `agg()`
+\-   \`value\_counts()\`, \`groupby()\`, and \`agg()\`
 
--   Sorting and ranking
+\-   Sorting and ranking
 
--   `idxmax()` and `idxmin()`
+\-   \`idxmax()\` and \`idxmin()\`
 
--   Correlation analysis
+\-   Correlation analysis
 
--   Correlation vs. causation
+\-   Correlation vs. causation
 
--   Matplotlib chart fundamentals
+\-   Matplotlib chart fundamentals
 
--   Histograms and distributions
+\-   Histograms and distributions
 
--   Seaborn statistical visualization
+\-   Seaborn statistical visualization
 
--   KDE plots
+\-   KDE plots
 
--   Box plots
+\-   Box plots
 
--   Regression plots
+\-   Regression plots
 
--   Correlation heatmaps
+\-   Correlation heatmaps
 
--   Pair plots
+\-   Pair plots
 
-### 🏠 Day 7 Final Project --- Canadian Housing Analysis
+**### 🏠 Day 7 Final Project --- Canadian Housing Analysis**
 
 Completed an end-to-end housing data analysis workflow:
 
-``` text
+\`\`\` text
 
 Load
 
- ↓
+ ↓
 
 Inspect
 
- ↓
+ ↓
 
 Clean
 
- ↓
+ ↓
 
 Analyze
 
- ↓
+ ↓
 
 Visualize
 
- ↓
+ ↓
 
 Interpret
 
-```
+\`\`\`
 
-#### Project Work
+**#### Project Work**
 
--   Inspected dataset structure, data types, missing values, and
+\-   Inspected dataset structure, data types, missing values, and
 
-    duplicates
+    duplicates
 
--   Standardized `City`, `Province`, and `Property Type` values
+\-   Standardized \`City\`, \`Province\`, and \`Property Type\` values
 
--   Removed duplicate records
+\-   Removed duplicate records
 
--   Handled missing `Price` and `Year_Built` values
+\-   Handled missing \`Price\` and \`Year\_Built\` values
 
--   Validated the cleaned dataset
+\-   Validated the cleaned dataset
 
--   Analyzed property prices by city, province, and property type
+\-   Analyzed property prices by city, province, and property type
 
--   Identified highest and lowest priced properties
+\-   Identified highest and lowest priced properties
 
--   Compared property area and prices
+\-   Compared property area and prices
 
--   Calculated numerical correlations
+\-   Calculated numerical correlations
 
--   Created Matplotlib and Seaborn visualizations
+\-   Created Matplotlib and Seaborn visualizations
 
--   Analyzed distributions and relationships
+\-   Analyzed distributions and relationships
 
--   Interpreted findings and dataset limitations
+\-   Interpreted findings and dataset limitations
 
-#### Key Findings
+**#### Key Findings**
 
--   **Vancouver / British Columbia** had the highest average property
+\-   **\*\*Vancouver / British Columbia\*\*** had the highest average property
 
-    price in the sample
+    price in the sample
 
--   **Detached properties** had the highest average price and largest
+\-   **\*\*Detached properties\*\*** had the highest average price and largest
 
-    average area
+    average area
 
--   `Area_sqft` showed a moderate positive relationship with `Price`
+\-   \`Area\_sqft\` showed a moderate positive relationship with \`Price\`
 
--   `Year_Built` had the strongest positive correlation with `Price`
+\-   \`Year\_Built\` had the strongest positive correlation with \`Price\`
 
-    among the examined predictors
+    among the examined predictors
 
--   Correlation was interpreted as **association, not causation**
+\-   Correlation was interpreted as **\*\*association, not causation\*\***
 
--   The small dataset was recognized as a limitation
+\-   The small dataset was recognized as a limitation
 
-**Final Project:** Canadian Housing Analysis ✅
+**\*\*Final Project:\*\*** Canadian Housing Analysis ✅
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-## Week 3 --- Machine Learning 🤖 ✅
+**## Week 3 --- Machine Learning 🤖 ✅**
 
-    Day Topic                                      Status
+    Day Topic                                      Status
 
-**  ----- ----------------------------------------- --------**
+**  ----- ----------------------------------------- --------**
 
-      1 Machine Learning Fundamentals                ✅
+      1 Machine Learning Fundamentals                ✅
 
-      2 Linear Regression & Model Evaluation         ✅
+      2 Linear Regression & Model Evaluation         ✅
 
-      3 Classification & Logistic Regression         ✅
+      3 Classification & Logistic Regression         ✅
 
-      4 Classification Model Evaluation              ✅
+      4 Classification Model Evaluation              ✅
 
-      5 Decision Trees & Overfitting                 ✅
+      5 Decision Trees & Overfitting                 ✅
 
-      6 Random Forest & Model Comparison             ✅
+      6 Random Forest & Model Comparison             ✅
 
-      7 Customer Churn Prediction Final Project      ✅
+      7 Customer Churn Prediction Final Project      ✅
 
-### Key Concepts
+**### Key Concepts**
 
--   Machine Learning workflow
+\-   Machine Learning workflow
 
--   Features (`X`) and target (`y`)
+\-   Features (\`X\`) and target (\`y\`)
 
--   Supervised vs. unsupervised learning
+\-   Supervised vs. unsupervised learning
 
--   Regression vs. classification
+\-   Regression vs. classification
 
--   Train/test splitting and `stratify`
+\-   Train/test splitting and \`stratify\`
 
--   Linear Regression
+\-   Linear Regression
 
--   Logistic Regression
+\-   Logistic Regression
 
--   Decision Tree Classification
+\-   Decision Tree Classification
 
--   Random Forest Classification
+\-   Random Forest Classification
 
--   Ensemble learning
+\-   Ensemble learning
 
--   Bootstrap sampling
+\-   Bootstrap sampling
 
--   Random feature selection
+\-   Random feature selection
 
--   `n_estimators`
+\-   \`n\_estimators\`
 
--   Gini impurity
+\-   Gini impurity
 
--   `max_depth` and model complexity
+\-   \`max\_depth\` and model complexity
 
--   Underfitting vs. overfitting
+\-   Underfitting vs. overfitting
 
--   Model generalization
+\-   Model generalization
 
--   Accuracy, Precision, Recall, and F1 Score
+\-   Accuracy, Precision, Recall, and F1 Score
 
--   Confusion Matrix and Classification Report
+\-   Confusion Matrix and Classification Report
 
--   Classification thresholds
+\-   Classification thresholds
 
--   Precision--Recall trade-off
+\-   Precision--Recall trade-off
 
--   Class imbalance
+\-   Class imbalance
 
--   Feature importance
+\-   Feature importance
 
--   Feature importance vs. causation
+\-   Feature importance vs. causation
 
--   Model comparison
+\-   Model comparison
 
--   Business-driven model selection
+\-   Business-driven model selection
 
--   Predicting new observations
+\-   Predicting new observations
 
--   Prediction probabilities with `predict_proba()`
+\-   Prediction probabilities with \`predict\_proba()\`
 
-### Practical Exercises
+**### Practical Exercises**
 
-#### 📚 Study Hours → Exam Score
+**#### 📚 Study Hours → Exam Score**
 
-Built a basic Linear Regression model and compared actual vs. predicted
+Built a basic Linear Regression model and compared actual vs. predicted
 
 scores.
 
-#### 💼 Experience → Salary
+**#### 💼 Experience → Salary**
 
 Built and evaluated a Linear Regression model using MAE, MSE, RMSE, and
 
 R².
 
-#### 🏦 Loan Approval Prediction
+**#### 🏦 Loan Approval Prediction**
 
 Built a Logistic Regression classification model and evaluated it using
 
 accuracy and a confusion matrix.
 
-#### 🎓 Student Pass/Fail Classification
+**#### 🎓 Student Pass/Fail Classification**
 
 Evaluated a classification model using Accuracy, Precision, Recall, F1
 
 Score, classification reports, and different classification thresholds.
 
-#### 🌳 Customer Churn --- Decision Tree
+**#### 🌳 Customer Churn --- Decision Tree**
 
 Built and evaluated a Decision Tree Classifier and explored Gini
 
-impurity, `max_depth`, overfitting, underfitting, generalization, and
+impurity, \`max\_depth\`, overfitting, underfitting, generalization, and
 
 feature importance.
 
-#### 🌲 Random Forest & Model Comparison
+**#### 🌲 Random Forest & Model Comparison**
 
 Built and compared Logistic Regression, Decision Tree, and Random Forest
 
 using the same train/test split.
 
--   Learned ensemble learning
+\-   Learned ensemble learning
 
--   Practiced bootstrap sampling and random feature selection
+\-   Practiced bootstrap sampling and random feature selection
 
--   Built a Random Forest Classifier
+\-   Built a Random Forest Classifier
 
--   Compared Accuracy, Precision, Recall, and F1
+\-   Compared Accuracy, Precision, Recall, and F1
 
--   Compared training and testing performance
+\-   Compared training and testing performance
 
--   Analyzed Random Forest feature importance
+\-   Analyzed Random Forest feature importance
 
--   Experimented with different `n_estimators`
+\-   Experimented with different \`n\_estimators\`
 
--   Practiced business-driven model selection
+\-   Practiced business-driven model selection
 
-### 📉 Day 7 Final Project --- Customer Churn Prediction
+**### 📉 Day 7 Final Project --- Customer Churn Prediction**
 
 Completed an end-to-end Machine Learning classification project for
 
 predicting customer churn.
 
-#### Project Workflow
+**#### Project Workflow**
 
-``` text
+\`\`\` text
 
 Business Problem
 
-      ↓
+      ↓
 
 Load Data
 
-      ↓
+      ↓
 
 Inspect & Validate
 
-      ↓
+      ↓
 
 Exploratory Data Analysis
 
-      ↓
+      ↓
 
 Define Features & Target
 
-      ↓
+      ↓
 
 Train/Test Split
 
-      ↓
+      ↓
 
 Train Models
 
-      ↓
+      ↓
 
 Evaluate Models
 
-      ↓
+      ↓
 
 Compare Models
 
-      ↓
+      ↓
 
 Confusion Matrix
 
-      ↓
+      ↓
 
 Feature Importance
 
-      ↓
+      ↓
 
 Business Recommendation
 
-      ↓
+      ↓
 
 Predict New Customers
 
-```
+\`\`\`
 
-#### Dataset
+**#### Dataset**
 
--   60 customer records
+\-   60 customer records
 
--   5 predictive features
+\-   5 predictive features
 
--   Target: `Churn`
+\-   Target: \`Churn\`
 
--   `0` = Stay
+\-   \`0\` = Stay
 
--   `1` = Churn
+\-   \`1\` = Churn
 
--   No missing values
+\-   No missing values
 
--   No duplicate rows
+\-   No duplicate rows
 
--   Balanced target: 50% Stay / 50% Churn
+\-   Balanced target: 50% Stay / 50% Churn
 
-#### EDA Findings
+**#### EDA Findings**
 
 In this synthetic dataset, customers who churned had:
 
--   Higher average monthly charges
+\-   Higher average monthly charges
 
--   Shorter average contract length
+\-   Shorter average contract length
 
--   More support calls
+\-   More support calls
 
--   Shorter average tenure
+\-   Shorter average tenure
 
--   Higher average data usage
+\-   Higher average data usage
 
 These patterns represent associations within the dataset and do not
 
 establish causation.
 
-#### Models Compared
+**#### Models Compared**
 
-  Model                   Test Accuracy   Precision      Recall          F1
+  Model                   Test Accuracy   Precision      Recall          F1
 
-**  --------------------- --------------- ----------- ----------- -----------**
+**  --------------------- --------------- ----------- ----------- -----------**
 
-  Logistic Regression             0.933       0.875       1.000       0.933
+  Logistic Regression             0.933       0.875       1.000       0.933
 
-  Decision Tree                   0.933       0.875       1.000       0.933
+  Decision Tree                   0.933       0.875       1.000       0.933
 
-  Random Forest               **1.000**   **1.000**   **1.000**   **1.000**
+  Random Forest               **\*\*1.000\*\***   **\*\*1.000\*\***   **\*\*1.000\*\***   **\*\*1.000\*\***
 
-All three models achieved Recall = `1.00`, meaning none missed an actual
+All three models achieved Recall = \`1.00\`, meaning none missed an actual
 
 churner in the test set.
 
 Random Forest achieved the strongest overall performance with:
 
--   Accuracy = `1.00`
+\-   Accuracy = \`1.00\`
 
--   Precision = `1.00`
+\-   Precision = \`1.00\`
 
--   Recall = `1.00`
+\-   Recall = \`1.00\`
 
--   F1 = `1.00`
+\-   F1 = \`1.00\`
 
--   False Positives = `0`
+\-   False Positives = \`0\`
 
--   False Negatives = `0`
+\-   False Negatives = \`0\`
 
-#### Random Forest Feature Importance
+**#### Random Forest Feature Importance**
 
-  Feature             Importance
+  Feature             Importance
 
-**  ----------------- ------------**
+**  ----------------- ------------**
 
-  Tenure_Months           0.4057
+  Tenure\_Months           0.4057
 
-  Monthly_Charges         0.2451
+  Monthly\_Charges         0.2451
 
-  Data_Usage_GB           0.2026
+  Data\_Usage\_GB           0.2026
 
-  Support_Calls           0.1210
+  Support\_Calls           0.1210
 
-  Contract_Months         0.0256
+  Contract\_Months         0.0256
 
-`Tenure_Months` had the highest feature importance, meaning the fitted
+\`Tenure\_Months\` had the highest feature importance, meaning the fitted
 
 Random Forest relied on it most heavily when making predictions.
 
-Feature importance describes model reliance and does **not** prove
+Feature importance describes model reliance and does **\*\*not\*\*** prove
 
 causation or directly indicate the direction of a relationship.
 
-#### Business Recommendation
+**#### Business Recommendation**
 
 Recall was prioritized because missing an actual churner would prevent
 
@@ -641,65 +620,107 @@ Because this project uses a small synthetic dataset, these results
 
 should not be interpreted as guaranteed real-world performance.
 
-#### New Customer Predictions
+**#### New Customer Predictions**
 
-  Customer     Prediction     Churn Probability
+  Customer     Prediction     Churn Probability
 
-**  ------------ ------------ -------------------**
+**  ------------ ------------ -------------------**
 
-  Customer A   Stay                      0.0000
+  Customer A   Stay                      0.0000
 
-  Customer B   Churn                     1.0000
+  Customer B   Churn                     1.0000
 
-  Customer C   Churn                     1.0000
+  Customer C   Churn                     1.0000
 
-**Final Project:** Customer Churn Prediction ✅
+**\*\*Final Project:\*\*** Customer Churn Prediction ✅
 
-**Week 3 --- Machine Learning: 7/7 COMPLETE 🏆**
+**\*\*Week 3 --- Machine Learning: 7/7 COMPLETE 🏆\*\***
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-## Week 4 --- Deep Learning 🧠 ⚪
+**## Week 4 --- Deep Learning 🧠 🟡**
 
 Planned focus:
 
--   Neural network fundamentals
--   TensorFlow
--   Keras
--   PyTorch fundamentals
--   Deep learning workflow
--   Model training and evaluation
+\-   Neural network fundamentals
 
+\-   TensorFlow
 
-### Planned Final Project
+\-   Keras
 
-#### 🔢 MNIST Digit Classifier
+\-   PyTorch fundamentals
+
+\-   Deep learning workflow
+
+\-   Model training and evaluation
+
+**### Day 1 --- Neural Network Foundations ✅**
+
+**#### Key Concepts**
+
+\-   Artificial neurons, weights, and bias
+
+\-   Weighted sums and activation functions
+
+\-   ReLU, sigmoid, and softmax
+
+\-   Logistic Regression as a single sigmoid neuron
+
+\-   Input, hidden, and output layers
+
+\-   Forward propagation
+
+\-   Parameters vs. hyperparameters
+
+\-   Classification probabilities and thresholds
+
+\-   Difference between samples and neurons
+
+**#### Practical Exercise --- Single-Neuron Churn Prediction Simulator**
+
+Built a NumPy program that:
+
+\-   Calculates the weighted sum and sigmoid probability
+
+\-   Applies one neuron to multiple customer samples
+
+\-   Compares predictions at thresholds of \`0.50\` and \`0.65\`
+
+\-   Calculates individual feature contributions
+
+\-   Uses a three-input, zero-hidden-layer, one-output-neuron architecture
+
+**\*\*Week 4 Progress:\*\*** 1/7 COMPLETE ✅
+
+**### Planned Final Project**
+
+**#### 🔢 MNIST Digit Classifier**
 
 Build and train a neural network to classify handwritten digits.
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-# 🗺️ Preparation Roadmap
+**# 🗺️ Preparation Roadmap**
 
-  Week         Focus                                  Status
+  Week         Focus                                  Status
 
-**  ------------ ---------------------------------- --------------**
+**  ------------ ---------------------------------- --------------**
 
-  Week 1       Python                              🟢 Completed
+  Week 1       Python                              🟢 Completed
 
-  Week 2       NumPy + Pandas + Visualization      🟢 Completed
+  Week 2       NumPy + Pandas + Visualization      🟢 Completed
 
-  Week 3       Machine Learning                    🟢 Completed
+  Week 3       Machine Learning                    🟢 Completed
 
-  Week 4       Deep Learning + TensorFlow/Keras    ⚪ Upcoming
+  Week 4       Deep Learning + TensorFlow/Keras    ⚪ Upcoming
 
-  Final Days   Revision + NLP + GitHub             ⚪ Upcoming
+  Final Days   Revision + NLP + GitHub             ⚪ Upcoming
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-## 🛠️ Development Environment
+**## 🛠️ Development Environment**
 
-``` text
+\`\`\` text
 
 Python 3.12.10
 
@@ -707,49 +728,49 @@ pip 26.2.1
 
 Git 2.46.0
 
-```
+\`\`\`
 
-### Main Libraries
+**### Main Libraries**
 
-`NumPy` · `Pandas` · `Matplotlib` · `Seaborn` · `Scikit-learn` · `SciPy`
+\`NumPy\` · \`Pandas\` · \`Matplotlib\` · \`Seaborn\` · \`Scikit-learn\` · \`SciPy\`
 
-· `Jupyter`
+· \`Jupyter\`
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-## 📈 Current Progress
+**## 📈 Current Progress**
 
-``` text
+\`\`\` text
 
 Week 1 — Python
 
-██████████  7/7  ✅
+██████████  7/7  ✅
 
 Week 2 — Data Analysis
 
-██████████  7/7  ✅
+██████████  7/7  ✅
 
 Week 3 — Machine Learning
 
-██████████  7/7  ✅
+██████████  7/7  ✅
 
 Week 4 — Deep Learning
 
-█░░░░░░░░░  1/7
+░░░░░░░░░░  Upcoming ⚪
 
-```
+\`\`\`
 
-**Completed:** Week 1 --- Python 🐍 ✅\
+**\*\*Completed:\*\*** Week 1 --- Python 🐍 ✅\\
 
-**Completed:** Week 2 --- Data Analysis 📊 ✅\
+**\*\*Completed:\*\*** Week 2 --- Data Analysis 📊 ✅\\
 
-**Completed:** Week 3 --- Machine Learning 🤖 ✅\
+**\*\*Completed:\*\*** Week 3 --- Machine Learning 🤖 ✅\\
 
-**Current Focus:** Week 4 --- Deep Learning 🧠
+**\*\*Current Focus:\*\*** Week 4 --- Deep Learning 🧠
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-## 🎯 Learning Approach
+**## 🎯 Learning Approach**
 
 The goal is not to become an AI/ML expert before starting the program.
 
@@ -759,7 +780,7 @@ feel familiar and easier to understand when they are introduced in
 
 greater depth.
 
-### Learn → Code → Practice → Build → Review
+**### Learn → Code → Practice → Build → Review**
 
 Each stage of this preparation focuses on understanding concepts first,
 
@@ -767,43 +788,43 @@ applying them through code, practicing independently, and finally
 
 combining those skills into practical projects.
 
-------------------------------------------------------------------------
+**------------------------------------------------------------------------**
 
-## 🚀 Progress So Far
+**## 🚀 Progress So Far**
 
 Three complete stages of the preparation roadmap are now finished:
 
-**Python → Data Analysis → Machine Learning → Deep Learning**
+**\*\*Python → Data Analysis → Machine Learning → Deep Learning\*\***
 
-``` text
+\`\`\` text
 
-Python                  ✅
+Python                  ✅
 
-   ↓
+   ↓
 
-NumPy & Pandas          ✅
+NumPy & Pandas          ✅
 
-   ↓
+   ↓
 
-Data Cleaning           ✅
+Data Cleaning           ✅
 
-   ↓
+   ↓
 
-EDA                     ✅
+EDA                     ✅
 
-   ↓
+   ↓
 
-Visualization           ✅
+Visualization           ✅
 
-   ↓
+   ↓
 
-Machine Learning        ✅
+Machine Learning        ✅
 
-   ↓
+   ↓
 
-Deep Learning           ⚪
+Deep Learning           ⚪
 
-```
+\`\`\`
 
 The Machine Learning stage is now complete, covering the full workflow
 
@@ -813,10 +834,8 @@ evaluation, Decision Trees, Random Forests, model comparison, feature
 
 importance, and business-driven model selection.
 
-The final **Customer Churn Prediction** project combined Data Analysis
+The final **\*\*Customer Churn Prediction\*\*** project combined Data Analysis
 
 and Machine Learning into an end-to-end classification workflow.
 
-**Next:** Week 4 --- Deep Learning 🧠
-
-Close
+**\*\*Next:\*\*** Week 4 --- Deep Learning 🧠
