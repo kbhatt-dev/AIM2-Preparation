@@ -1,80 +1,3 @@
-give me Day 1 PDF notes, README update, Git commit message,  first
-
-Done — your Day 1 materials are ready:
-
-Day 1 PDF Notes
-README Week 4 Day 1 Update
-
-The PDF contains five professionally formatted pages covering concepts, calculations, corrected code, mini-project results, common mistakes, and a five-minute revision sheet.
-
-The README file contains a paste-ready section because your existing root README.md was not attached.
-
-Recommended file location
-week-04-deep-learning/
-├── notes/
-│   └── Week-04-Day-01-Neural-Network-Foundations-Notes.pdf
-└── Day-01-Neural-Network-Foundation.py
-Git commit message
-feat: complete Week 4 Day 1 neural network foundations
-
-Optional detailed commit description:
-
-- implement a single-neuron forward pass using NumPy
-- compare churn predictions across classification thresholds
-- analyze feature contributions for multiple customer samples
-- add Day 1 neural-network notes
-- update Week 4 learning progress in README
-Git commands
-
-Run from AIM2-Preparation:
-
-git add README.md week-04-deep-learning/Day-01-Neural-Network-Foundation.py week-04-deep-learning/notes/Week-04-Day-01-Neural-Network-Foundations-Notes.pdf
-git commit -m "feat: complete Week 4 Day 1 neural network foundations"
-git push
-
-Week 4 progress: 1/7 complete ✅
-
-Week-04-Day-01-Neural-Network-Foundations-Notes.pdf
-PDF
-README-Week-4-Day-1-Update.md
-Document
-Pasted markdown(2).md
-File
-could you please update week 4 in readme my given file?
-
-
-Updated your supplied README while preserving all Week 1–3 content.
-
-Changes include:
-
-Week 4 status updated to 1/7 complete
-Day 1 topics and practical exercise added
-Repository structure updated
-Roadmap and progress bar updated
-Day 2 listed as the next topic
-
-Download the updated README
-
-README-Updated.md
-Document
-no you just this file looks agly please get back my previous one just add week 4 thing on it without changing any previous thing update
-
-Sorry about the earlier version. I restored your original README and changed only the existing Week 4 section.
-
-Added:
-
-Day 1 — Neural Network Foundations ✅
-Key concepts
-Single-Neuron Churn Prediction Simulator
-Week 4 progress: 1/7 complete
-
-All previous sections and formatting remain unchanged.
-
-Download the corrected README.md
-
-README.md
-Document
-
 # AIM2 Preparation 🚀
 
 My preparation journey for the **Artificial Intelligence and Machine
@@ -688,30 +611,38 @@ Planned focus:
 -   Model training and evaluation
 
 ### Day 1 --- Neural Network Foundations ✅
+### Day 2 --- TensorFlow & Keras Foundations ✅
 #### Key Concepts
-
--   Artificial neurons, weights, and bias
--   Weighted sums and activation functions
--   ReLU, sigmoid, and softmax
--   Logistic Regression as a single sigmoid neuron
--   Input, hidden, and output layers
--   Forward propagation
--   Parameters vs. hyperparameters
--   Classification probabilities and thresholds
--   Difference between samples and neurons
-
-**#### Practical Exercise --- Single-Neuron Churn Prediction Simulator**
-
-Built a NumPy program that:
-
--   Calculates the weighted sum and sigmoid probability
--   Applies one neuron to multiple customer samples
--   Compares predictions at thresholds of \`0.50\` and \`0.65\`
--   Calculates individual feature contributions
--   Uses a three-input, zero-hidden-layer, one-output-neuron architecture
-
-**\*\*Week 4 Progress:\*\*** 1/7 COMPLETE ✅
-
+-   TensorFlow as the computation framework and Keras as the high-level API
+-   Tensors, rank, shape, dimensions, and data types
+-   Samples, features, and batch dimensions
+-   Sequential models and Keras Input objects
+-   Dense layers, neurons, kernels, biases, and activation functions
+-   ReLU hidden layers and sigmoid output layers
+-   Input and output shapes
+-   Manual trainable-parameter calculations
+-   Model inspection using \model.summary()\\ and \model.layers\\
+-   Untrained forward propagation
+-   Classification thresholds and TensorFlow casting
+-   Difference between building, compiling, and training a model
+**#### Practical Exercise --- First Keras Churn Network**
+Built and inspected a Keras Sequential model with:
+-   Three customer input features
+-   One four-neuron hidden layer using ReLU
+-   One sigmoid output neuron
+-   21 total trainable parameters
+-   A four-customer forward pass and threshold-based classifications
+**#### Mini-Project --- Keras Architecture Inspector**
+Built the \deep_churn_network\\ model with this architecture:
+\3 inputs → 6 ReLU neurons → 3 ReLU neurons → 1 sigmoid neuron\\
+The mini-project included:
+-   Manual verification of 49 trainable parameters
+-   Kernel, bias, and activation inspection for every Dense layer
+-   Untrained probability generation for four customer samples
+-   Classification using thresholds of \0.50\\ and \0.65\\
+-   Confirmation that thresholds change class labels, not probabilities
+-   TensorFlow \2.21.0\\ and Keras \3.15.1\\
+**\*\*Week 4 Progress:\*\*** 2/7 COMPLETE ✅
 
 ### Planned Final Project
 
@@ -733,7 +664,7 @@ Build and train a neural network to classify handwritten digits.
 
   Week 3       Machine Learning                    🟢 Completed
 
-  Week 4       Deep Learning + TensorFlow/Keras    ⚪ Upcoming
+  Week 4       Deep Learning + TensorFlow/Keras    🟡 In Progress
 
   Final Days   Revision + NLP + GitHub             ⚪ Upcoming
 
@@ -777,7 +708,7 @@ Week 3 — Machine Learning
 
 Week 4 — Deep Learning
 
-█░░░░░░░░░  1/7 COMPLETE ✅
+██░░░░░░░░  2/7 COMPLETE ✅
 
 ```
 
@@ -844,6 +775,4 @@ The final **Customer Churn Prediction** project combined Data Analysis
 
 and Machine Learning into an end-to-end classification workflow.
 
-**Next:** Week 4 --- Deep Learning 🧠
-
-Close
+**Next:** Week 4 Day 3 --- Training Neural Networks 🧠
